@@ -1,0 +1,215 @@
+/**
+ * Created Jun 9, 2019
+ * 
+ * Copyright 2019 JavaSin@protonmail.com
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ * 
+ * 
+ * 'Java SIN (The Original Developer of SIN) <javasin@protonmail.com>'
+ * 
+ * -----BEGIN PGP PUBLIC KEY BLOCK----- Version: GnuPG v1
+ * 
+ * mQENBFz875YBCADUoyRjG3ubhlz4MLcC+5TGDnI6/77dweSVHtGDzvF9SSD3X8io
+ * Nxuu5cUSGlk6j5YBklIU+vPImtfDCYdqXpJnQH4tqt+qiIz3JvZ+uq88zSR4nUXu
+ * 0Z58zNp7qOFQP3fIZhC5N4AaoL6oOOANiA9Ebv4qvU2Ve340xU5bZ66nqmJ72NIi
+ * 4BxpfDiWNsS8LROupK/7M0qezopaAW/oz8FAolBgVv60fYqhpSbWJRVlz1NG4Dts
+ * WTXxtcsr4Y17Rlqt2jKMMDxG7hw468k1h53meBcr50bzDRbvKCsegrUWM24FO0Fc
+ * Vlh2hLfHKih4y7hF1/v8f6kk3Zjrud3KXsZxABEBAAG0QUphdmEgU0lOIChUaGUg
+ * T3JpZ2luYWwgRGV2ZWxvcGVyIG9mIFNJTikgPGphdmFzaW5AcHJvdG9ubWFpbC5j
+ * b20+iQE4BBMBAgAiBQJc/O+WAhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAK
+ * CRBRGfjZM0iumx4OB/4gnPB58a/5JoF4eEIh3Nrj92rfIua7KJYf7xUI7oiULX7B
+ * kzz463N6UAiDaCbW9l2t1vHXHrmo5D16Z9/1h8zcKFA4gWWKQhqN4SnT47raaofp
+ * BXvK7sG5Vxyy6W2B4iQK6fPy+A/AjQZRYX5VzPQ4361jAPJJnZ+ARYgW6tQ0R7JZ
+ * qniKcBWc6ZyVoAW/RdSYJlc/kOZ0S9KIKxRHmNEEjHXzDoLuR8/ZHvQTOEhIk8eO
+ * KmTc7WovC1s5AkgjaKBQDThqTJtMZJpFOJZTJ29d0PKLQZR4R/UecvDBhHli9vDu
+ * vmkJ6kyTNatwhPSc7LJP3EK2RaAyv6kO5frs6oQOuQENBFz875YBCADi4+6bF6Vj
+ * sNN9Biflb3InatfoCqPInkPYgIZTFyKK4c+/12FM8ZpaKJug+cmMQZtQhfggcNpL
+ * 4YZnKRd71bZnObadnLUafinv1298T39abAYL56ljG4BDC3mcbnezz+Hl26qlheOr
+ * xQLSS5U2+j//og3xjf4g6AMsMIp86KCj/Qabl8Ky/UPwwp933BTCBAoZBtDcJv5t
+ * Yo+Ug7UAhqrutQy03MY2QQlIaLtpVhrwAhkJ8vL1oLI4CJXY/la0Q9BhBmdI6HOu
+ * xFQmZvSO4TI+ndDBvbALq7BYIzvOMNUfqeCz0gjzdcwVchZQNm4Xto6cWbztQ3c1
+ * eoL/JKT/ulvhABEBAAGJAR8EGAECAAkFAlz875YCGwwACgkQURn42TNIrpuDrggA
+ * qXcbGezvTAzTmrjKIc6PKyQu1QaMXbSZXyXqjnzHNKv+d8M3pCIefATXWQX5a/PG
+ * iNXifhdhooX/v4zcnkiI0K1jGFERzcVCioAeedJSViam/sCiIYQ9jaQhNpYgslbK
+ * QwKexlgEPf/mVptRE2Aisz0aY62yRGPFNB3qEtdUvXwjKUq1issWM9z/2VUE87lT
+ * uDrSAU5zQv0Ewsax8N3jJ84Ywp2egKhCKYav1P0tCqFN8EM560BLLOLemvb65sjL
+ * TCPzpejmQOdVhQ7HwA/rV8YlfXnksZ4CbMggzcTiiyRNl17cRBTzO2BnPB8IT0cW
+ * 5PEYfdys8G3+T1REFWaryg== =YAo8 -----END PGP PUBLIC KEY BLOCK-----
+ * 
+ * 
+ */
+
+package com.roguelogic.sin.services;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+
+import org.xbill.DNS.Flags;
+import org.xbill.DNS.Header;
+import org.xbill.DNS.Lookup;
+import org.xbill.DNS.Message;
+import org.xbill.DNS.Name;
+import org.xbill.DNS.Rcode;
+import org.xbill.DNS.Record;
+import org.xbill.DNS.Resolver;
+import org.xbill.DNS.Section;
+import org.xbill.DNS.SimpleResolver;
+
+import com.roguelogic.sin.SinStackException;
+import com.roguelogic.sin.model.GenericInterServiceRequest;
+import com.roguelogic.sin.model.GenericInterServiceResponse;
+
+public class DnsService extends BaseSinStackService {
+
+  private Thread udpListenerThread;
+
+  public DnsService() {
+    super();
+  }
+
+  public void init() throws SinStackException {
+    try {
+      udpListenerThread = new Thread(udpListener);
+
+      udpListenerThread.start();
+    }
+    catch (Exception e) {
+      throw new SinStackException("An error occurred while attempting to Initialize DNS Service! System Message: " + e.getMessage(), e);
+    }
+  }
+
+  private Runnable udpListener = new Runnable() {
+    @Override
+    public void run() {
+      byte[] buf;
+      DatagramPacket packet;
+      DatagramSocket socket = null;
+
+      try {
+        socket = new DatagramSocket(53);
+
+        while (true) {
+          buf = new byte[65535];
+          packet = new DatagramPacket(buf, buf.length);
+
+          socket.receive(packet);
+
+          Message msg = new Message(buf);
+
+          Record question = msg.getQuestion();
+
+          Header header = msg.getHeader();
+
+          Name name = question.getName();
+
+          Record[] answers;
+
+          answers = lookup(name);
+
+          for (Record rec : answers) {
+            System.out.print(rec);
+          }
+
+          Message response = new Message(header.getID());
+          response.getHeader().setFlag(Flags.QR);
+          response.addRecord(question, Section.QUESTION);
+
+          if (answers != null && answers.length > 0) {
+            for (Record rec : answers) {
+              System.out.println(rec);
+
+              response.addRecord(rec, Section.ANSWER);
+            }
+          }
+          else {
+            response.getHeader().setRcode(Rcode.NXDOMAIN);
+          }
+
+          byte[] resp = response.toWire();
+          DatagramPacket outdp = new DatagramPacket(resp, resp.length, packet.getAddress(), packet.getPort());
+          socket.send(outdp);
+        }
+      }
+      catch (Exception e) {
+        // throw new SinStackException("An error occurred while listening to DNS Port!
+        // System Message: " + e.getMessage(), e);
+        System.err.println("An error occurred while listening to DNS Port! System Message: " + e.getMessage());
+        e.printStackTrace();
+      }
+      finally {
+        try {
+          if (socket != null) {
+            socket.close();
+          }
+        }
+        catch (Exception e) {
+          e.printStackTrace();
+        }
+      }
+    }
+  };
+
+  public void shutdown() throws SinStackException {
+    // TODO Auto-generated method stub
+
+  }
+
+  public Record[] lookup(String name) throws SinStackException {
+    Record[] answers = null;
+    Name dnsName;
+
+    try {
+      dnsName = new Name(name);
+      answers = lookup(dnsName);
+
+      return answers;
+    }
+    catch (Exception e) {
+      throw new SinStackException("An error occurred while attempting to perform DNS Lookup! System Message: " + e.getMessage(), e);
+    }
+  }
+
+  public Record[] lookup(Name name) throws SinStackException {
+    Record[] answers = null;
+    Resolver resolver;
+    Lookup lookup;
+    int result;
+
+    try {
+      resolver = new SimpleResolver("8.8.8.8");
+
+      lookup = new Lookup(name);
+      lookup.setResolver(resolver);
+      lookup.run();
+
+      result = lookup.getResult();
+
+      if (result == Lookup.SUCCESSFUL) {
+        answers = lookup.getAnswers();
+      }
+
+      return answers;
+    }
+    catch (Exception e) {
+      throw new SinStackException("An error occurred while attempting to perform DNS Lookup! System Message: " + e.getMessage(), e);
+    }
+  }
+
+  @Override
+  public GenericInterServiceResponse handleGenericInterServiceRequest(GenericInterServiceRequest gisReq) throws SinStackException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+}
