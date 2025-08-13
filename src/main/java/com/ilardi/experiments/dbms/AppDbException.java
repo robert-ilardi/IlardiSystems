@@ -3,7 +3,7 @@
  */
 package com.ilardi.experiments.dbms;
 
-import com.ilardi.systems.util.IlardiSystemsException;
+import com.ilardi.systems.IlardiSystemsException;
 
 /**
  * @author robert.ilardi

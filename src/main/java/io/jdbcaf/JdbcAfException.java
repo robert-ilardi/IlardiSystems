@@ -1,32 +1,31 @@
 /**
- * Created Apr 30, 2023
+ * Created Aug 12, 2025
  */
-package com.ilardi.experiments.cli;
+package io.jdbcaf;
 
 import com.ilardi.systems.IlardiSystemsException;
 
 /**
  * @author robert.ilardi
- *
  */
 
-public class CliAppException extends IlardiSystemsException {
+public class JdbcAfException extends IlardiSystemsException {
 
-  public CliAppException() {
+  public JdbcAfException() {
     super();
   }
 
   /**
    * @param message
    */
-  public CliAppException(String message) {
+  public JdbcAfException(String message) {
     super(message);
   }
 
   /**
    * @param cause
    */
-  public CliAppException(Throwable cause) {
+  public JdbcAfException(Throwable cause) {
     super(cause);
   }
 
@@ -34,7 +33,7 @@ public class CliAppException extends IlardiSystemsException {
    * @param message
    * @param cause
    */
-  public CliAppException(String message, Throwable cause) {
+  public JdbcAfException(String message, Throwable cause) {
     super(message, cause);
   }
 
@@ -44,7 +43,7 @@ public class CliAppException extends IlardiSystemsException {
    * @param enableSuppression
    * @param writableStackTrace
    */
-  public CliAppException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+  public JdbcAfException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
     super(message, cause, enableSuppression, writableStackTrace);
   }
 

@@ -1,7 +1,7 @@
 /**
  * Created Jan 31, 2021
  */
-package com.ilardi.systems.util;
+package com.ilardi.systems;
 
 /**
  * @author rilardi

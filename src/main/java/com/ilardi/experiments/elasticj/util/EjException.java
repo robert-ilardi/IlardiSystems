@@ -3,7 +3,7 @@
  */
 package com.ilardi.experiments.elasticj.util;
 
-import com.ilardi.systems.util.IlardiSystemsException;
+import com.ilardi.systems.IlardiSystemsException;
 
 /**
  * @author rilardi

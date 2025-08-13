@@ -6,9 +6,9 @@ package com.ilardi.systems.rest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.ilardi.systems.IlardiSystemsException;
 import com.ilardi.systems.ploader.BaseLoadableProgram;
 import com.ilardi.systems.ploader.ProgramLoader;
-import com.ilardi.systems.util.IlardiSystemsException;
 
 /**
  * @Author robert.ilardi

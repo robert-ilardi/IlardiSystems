@@ -12,9 +12,9 @@ import java.util.Properties;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.ilardi.systems.IlardiSystemsException;
 import com.ilardi.systems.util.ApplicationContext;
 import com.ilardi.systems.util.IlardiStringUtils;
-import com.ilardi.systems.util.IlardiSystemsException;
 
 /**
  * @author robert.ilardi

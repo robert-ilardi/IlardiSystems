@@ -3,7 +3,7 @@
  */
 package com.refmatica;
 
-import com.ilardi.systems.util.IlardiSystemsRuntimeException;
+import com.ilardi.systems.IlardiSystemsRuntimeException;
 
 /**
  * @author robert.ilardi

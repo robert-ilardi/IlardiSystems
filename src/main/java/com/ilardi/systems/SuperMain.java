@@ -10,7 +10,6 @@ import org.apache.logging.log4j.Logger;
 
 import com.ilardi.systems.ploader.ProgramLoader;
 import com.ilardi.systems.util.ApplicationContext;
-import com.ilardi.systems.util.IlardiSystemsException;
 
 /**
  * @author robert.ilardi

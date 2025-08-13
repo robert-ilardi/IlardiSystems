@@ -9,6 +9,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
 
+import com.ilardi.systems.IlardiSystemsException;
+
 /**
  * @author rober
  */
