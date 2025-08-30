@@ -1,32 +1,30 @@
 /**
  * Created Jan 7, 2021
  */
-package com.ilardi.systems;
-
-import io.ilardi.IlardiException;
+package io.ilardi;
 
 /**
  * @author rilardi
  *
  */
 
-public class IlardiSystemsException extends IlardiException {
+public class IlardiException extends Exception {
 
-  public IlardiSystemsException() {
+  public IlardiException() {
     super();
   }
 
   /**
    * @param message
    */
-  public IlardiSystemsException(String message) {
+  public IlardiException(String message) {
     super(message);
   }
 
   /**
    * @param cause
    */
-  public IlardiSystemsException(Throwable cause) {
+  public IlardiException(Throwable cause) {
     super(cause);
   }
 
@@ -34,7 +32,7 @@ public class IlardiSystemsException extends IlardiException {
    * @param message
    * @param cause
    */
-  public IlardiSystemsException(String message, Throwable cause) {
+  public IlardiException(String message, Throwable cause) {
     super(message, cause);
     // TODO Auto-generated constructor stub
   }
@@ -45,7 +43,7 @@ public class IlardiSystemsException extends IlardiException {
    * @param enableSuppression
    * @param writableStackTrace
    */
-  public IlardiSystemsException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+  public IlardiException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
     super(message, cause, enableSuppression, writableStackTrace);
   }
 

@@ -17,7 +17,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
 
-import com.ilardi.systems.util.ApplicationContext;
+import io.ilardi.ApplicationContext;
 
 /**
  * @author robert.ilardi

@@ -18,7 +18,7 @@
  * the License.
  */
 
-package com.ilardi.systems.util;
+package io.ilardi;
 
 import java.io.File;
 import java.net.InetAddress;
@@ -27,7 +27,7 @@ import java.net.InetAddress;
  * @author rilardi
  */
 
-public class IlardiSystemUtils {
+public class IlardiUtils {
 
   private static final String SYSPROP_OS_NAME = "os.name";
   private static final String SYSPROP_OS_VERSION = "os.version";

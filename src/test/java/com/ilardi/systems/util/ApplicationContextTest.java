@@ -9,7 +9,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
 
-import com.ilardi.systems.IlardiSystemsException;
+import io.ilardi.ApplicationContext;
+import io.ilardi.ApplicationMode;
+import io.ilardi.IlardiException;
 
 /**
  * @author rober
@@ -20,7 +22,7 @@ class ApplicationContextTest {
   private static final Logger logger = LogManager.getLogger(ApplicationContextTest.class);
 
   @Test
-  void test() throws IlardiSystemsException {
+  void test() throws IlardiException {
     ApplicationContext appContext;
     ApplicationMode appMode;
 

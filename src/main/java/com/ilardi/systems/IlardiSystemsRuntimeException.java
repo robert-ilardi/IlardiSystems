@@ -3,12 +3,14 @@
  */
 package com.ilardi.systems;
 
+import io.ilardi.IlardiRuntimeException;
+
 /**
  * @author rilardi
  *
  */
 
-public class IlardiSystemsRuntimeException extends RuntimeException {
+public class IlardiSystemsRuntimeException extends IlardiRuntimeException {
 
   public IlardiSystemsRuntimeException() {
     super();

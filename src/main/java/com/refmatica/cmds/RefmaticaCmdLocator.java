@@ -9,11 +9,12 @@ import java.util.HashMap;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.ilardi.systems.IlardiSystemsException;
-import com.ilardi.systems.util.ApplicationContext;
-import com.ilardi.systems.util.IlardiStringUtils;
 import com.refmatica.RefmaticaException;
 import com.refmatica.Version;
+
+import io.ilardi.ApplicationContext;
+import io.ilardi.IlardiException;
+import io.ilardi.IlardiStringUtils;
 
 /**
  * @author robert.ilardi
@@ -78,7 +79,7 @@ public class RefmaticaCmdLocator {
     } // End Synchronized Block
   }
 
-  private void readProperties() throws IlardiSystemsException {
+  private void readProperties() throws IlardiException {
     String tmp;
 
     tmp = appContext.getAppProperty(PROP_AVAILABLE_COMMAND_EXECUTABLES);

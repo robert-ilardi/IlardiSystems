@@ -1,7 +1,7 @@
 /**
  * Created Jun 25, 2024
  */
-package com.ilardi.systems.ploader;
+package io.ilardi.ploader;
 
 import java.lang.management.ManagementFactory;
 
@@ -15,8 +15,8 @@ import javax.management.ObjectName;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.ilardi.systems.IlardiSystemsException;
-import com.ilardi.systems.util.ApplicationContext;
+import io.ilardi.ApplicationContext;
+import io.ilardi.IlardiException;
 
 /**
  * @author robert.ilardi
@@ -27,7 +27,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
 
   private static final Logger logger = LogManager.getLogger(BaseLoadableProgram.class);
 
-  private static final String JMX_ROOT_NAME = "IlardiSystems.ProgramLoader.LoadableProgram";
+  private static final String JMX_ROOT_NAME = "Ilardi.ProgramLoader.LoadableProgram";
   private static final String JMX_TYPE = "Management";
 
   protected ApplicationContext appContext;
@@ -75,7 +75,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
   }
 
   @Override
-  public void init() throws IlardiSystemsException {
+  public void init() throws IlardiException {
     synchronized (programLock) {
       logger.debug("Initializing Ilardi Systems Loadable Program...");
 
@@ -85,7 +85,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
     }
   }
 
-  protected void baseProgramInit() throws IlardiSystemsException {
+  protected void baseProgramInit() throws IlardiException {
     synchronized (programLock) {
       try {
         logger.debug("Entering Base Init Routine...");
@@ -97,7 +97,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
         setupJmx();
       }
       catch (Exception e) {
-        throw new IlardiSystemsException("An error occurred while attempting to Initialize Base Program! System Message: " + e.getMessage(), e);
+        throw new IlardiException("An error occurred while attempting to Initialize Base Program! System Message: " + e.getMessage(), e);
       }
     }
   }
@@ -182,7 +182,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
   }
 
   @Override
-  public void destroy() throws IlardiSystemsException {
+  public void destroy() throws IlardiException {
     /*
      * Default implementation in the base class is empty as there is nothing to that
      * requires a custom cleanup function.
@@ -223,7 +223,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
   }
 
   @Override
-  public void waitWhileProgramRunning() throws IlardiSystemsException, InterruptedException {
+  public void waitWhileProgramRunning() throws IlardiException, InterruptedException {
     synchronized (programLock) {
       if (isProgramAsync()) {
         while (programRunning) {
@@ -234,7 +234,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
   }
 
   @Override
-  public void waitWhileProgramStarting() throws IlardiSystemsException, InterruptedException {
+  public void waitWhileProgramStarting() throws IlardiException, InterruptedException {
     synchronized (programLock) {
       if (isProgramAsync()) {
         while (programStarting) {

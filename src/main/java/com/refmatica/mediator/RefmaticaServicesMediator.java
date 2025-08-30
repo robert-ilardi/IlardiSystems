@@ -6,8 +6,9 @@ package com.refmatica.mediator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.ilardi.systems.util.ApplicationContext;
 import com.refmatica.Version;
+
+import io.ilardi.ApplicationContext;
 
 /**
  * @author robert.ilardi

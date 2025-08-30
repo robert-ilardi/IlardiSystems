@@ -1,18 +1,18 @@
 /**
  * Created Jun 17, 2024
  */
-package com.ilardi.systems.ploader;
+package io.ilardi.ploader;
 
-import com.ilardi.systems.IlardiSystemsException;
+import io.ilardi.IlardiException;
 
 /**
  * @author rober
  */
 
 public interface LoadableProgram {
-  public void init() throws IlardiSystemsException;
+  public void init() throws IlardiException;
 
-  public void destroy() throws IlardiSystemsException;
+  public void destroy() throws IlardiException;
 
   public boolean isProgramInited();
 
@@ -32,11 +32,11 @@ public interface LoadableProgram {
 
   public void setProgramStartSuccessful(boolean programStartSuccessful);
 
-  public void startProgram(String[] progArgs) throws IlardiSystemsException;
+  public void startProgram(String[] progArgs) throws IlardiException;
 
-  public void stopProgram() throws IlardiSystemsException;
+  public void stopProgram() throws IlardiException;
 
-  public void waitWhileProgramRunning() throws IlardiSystemsException, InterruptedException;
+  public void waitWhileProgramRunning() throws IlardiException, InterruptedException;
 
-  public void waitWhileProgramStarting() throws IlardiSystemsException, InterruptedException;
+  public void waitWhileProgramStarting() throws IlardiException, InterruptedException;
 }

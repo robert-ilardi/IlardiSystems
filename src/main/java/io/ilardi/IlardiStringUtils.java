@@ -19,7 +19,7 @@
  * the License.
  */
 
-package com.ilardi.systems.util;
+package io.ilardi;
 
 import java.util.ArrayList;
 import java.util.Iterator;

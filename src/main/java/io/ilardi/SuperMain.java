@@ -1,15 +1,14 @@
 /**
  * Created Jun 16, 2024
  */
-package com.ilardi.systems;
+package io.ilardi;
 
 import java.lang.reflect.InvocationTargetException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.ilardi.systems.ploader.ProgramLoader;
-import com.ilardi.systems.util.ApplicationContext;
+import io.ilardi.ploader.ProgramLoader;
 
 /**
  * @author robert.ilardi
@@ -22,21 +21,21 @@ public class SuperMain {
 
   private ProgramLoader pLoader;
 
-  public SuperMain(String programFriendlyName, String[] programArgs) throws IlardiSystemsException {
+  public SuperMain(String programFriendlyName, String[] programArgs) throws IlardiException {
     logger.debug("Creating PpogramLoader Instance");
     pLoader = ProgramLoader.getInstance(programFriendlyName, programArgs);
   }
 
-  public void startProgram() throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException,
-      InvocationTargetException, IlardiSystemsException {
+  public void startProgram()
+      throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, IlardiException {
     pLoader.startProgram();
   }
 
-  public void stopProgram() throws IlardiSystemsException {
+  public void stopProgram() throws IlardiException {
     pLoader.stopProgram();
   }
 
-  public void destroyProgram() throws IlardiSystemsException {
+  public void destroyProgram() throws IlardiException {
     pLoader.destroyProgram();
   }
 
@@ -56,11 +55,11 @@ public class SuperMain {
     return pLoader.isProgramAsync();
   }
 
-  public void waitWhileProgramRunning() throws IlardiSystemsException, InterruptedException {
+  public void waitWhileProgramRunning() throws IlardiException, InterruptedException {
     pLoader.waitWhileProgramRunning();
   }
 
-  public void waitWhileProgramStarting() throws IlardiSystemsException, InterruptedException {
+  public void waitWhileProgramStarting() throws IlardiException, InterruptedException {
     pLoader.waitWhileProgramStarting();
   }
 

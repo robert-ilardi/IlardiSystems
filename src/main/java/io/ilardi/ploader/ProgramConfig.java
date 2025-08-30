@@ -1,7 +1,7 @@
 /**
  * Created Jun 17, 2024
  */
-package com.ilardi.systems.ploader;
+package io.ilardi.ploader;
 
 import java.io.Serializable;
 import java.util.Properties;

@@ -1,9 +1,9 @@
 /**
  * Created Jun 25, 2024
  */
-package com.ilardi.systems.ploader;
+package io.ilardi.ploader;
 
-import com.ilardi.systems.IlardiSystemsException;
+import io.ilardi.IlardiException;
 
 /**
  * @author robert.ilardi
@@ -24,7 +24,7 @@ public class ProgramLoaderJmx implements ProgramLoaderJmxMBean {
   }
 
   @Override
-  public void stopProgram() throws IlardiSystemsException, InterruptedException {
+  public void stopProgram() throws IlardiException, InterruptedException {
     program.stopProgram();
   }
 
