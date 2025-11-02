@@ -3,11 +3,11 @@
  */
 package io.ilardi.meta;
 
-import io.ilardi.DomainObject;
+import io.ilardi.ValueObject;
 
 /**
  * @author robert.ilardi
  */
-public interface MetaModelObject extends DomainObject {
+public interface MetaModelObject extends ValueObject {
 
 }

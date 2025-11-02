@@ -7,7 +7,7 @@ package io.ilardi.meta;
  * @author robert.ilardi
  */
 
-public class MetaMember extends BaseMetaModelObject {
+public class MetaMember extends MetaEntity {
 
   public MetaMember() {
     super();

@@ -9,11 +9,17 @@ package io.ilardi.meta;
 
 public class MetaEntity extends BaseMetaModelObject {
   
-  protected String name;
-  protected String description;
-  protected String uniqueId;
+  protected String globallyUniqueId;
   
-
+  protected String entityMasterId;
+  protected String entityRevisionId;
+  
+  protected String primaryName;
+  protected String primaryDescription;
+  
+  protected Boolean singletonEntity;
+  
+  
   public MetaEntity() {
     super();
   }
