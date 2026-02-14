@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 
 import io.ilardi.ApplicationContext;
 import io.ilardi.ApplicationMode;
-import io.ilardi.IlardiException;
+import io.ilardi.IlardiSystemsException;
 
 /**
  * @author rober
@@ -22,7 +22,7 @@ class ApplicationContextTest {
   private static final Logger logger = LogManager.getLogger(ApplicationContextTest.class);
 
   @Test
-  void test() throws IlardiException {
+  void test() throws IlardiSystemsException {
     ApplicationContext appContext;
     ApplicationMode appMode;
 

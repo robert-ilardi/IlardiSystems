@@ -13,8 +13,8 @@ import com.refmatica.RefmaticaException;
 import com.refmatica.Version;
 
 import io.ilardi.ApplicationContext;
-import io.ilardi.IlardiException;
 import io.ilardi.IlardiStringUtils;
+import io.ilardi.IlardiSystemsException;
 
 /**
  * @author robert.ilardi
@@ -79,7 +79,7 @@ public class RefmaticaCmdLocator {
     } // End Synchronized Block
   }
 
-  private void readProperties() throws IlardiException {
+  private void readProperties() throws IlardiSystemsException {
     String tmp;
 
     tmp = appContext.getAppProperty(PROP_AVAILABLE_COMMAND_EXECUTABLES);

@@ -16,7 +16,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import io.ilardi.ApplicationContext;
-import io.ilardi.IlardiException;
+import io.ilardi.IlardiSystemsException;
 
 /**
  * @author robert.ilardi
@@ -62,6 +62,12 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
     this.programLoader = programLoader;
   }
 
+  protected abstract void runProgramInit() throws IlardiSystemsException;
+
+  protected abstract void beginProgramExecution(String[] progArgs) throws IlardiSystemsException;
+
+  protected abstract void endProgramExecution() throws IlardiSystemsException;
+
   public String getInstanceName() {
     return instanceName;
   }
@@ -75,17 +81,58 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
   }
 
   @Override
-  public void init() throws IlardiException {
+  public void init() throws IlardiSystemsException {
     synchronized (programLock) {
-      logger.debug("Initializing Ilardi Systems Loadable Program...");
+      if (!isProgramInited()) {
+        logger.debug("Initializing Ilardi Systems Loadable Program: " + getProgramName());
 
-      baseProgramInit();
+        baseProgramInit();
 
-      setProgramInited(true);
+        runProgramInit();
+
+        logger.debug("Finished Running Program Init for: " + getProgramName());
+        setProgramInited(true);
+      }
+      else {
+        logger.warn(getProgramName() + " Already Initialized!");
+      }
     }
   }
 
-  protected void baseProgramInit() throws IlardiException {
+  @Override
+  public void startProgram(String[] progArgs) throws IlardiSystemsException {
+    if (!isProgramRunning()) {
+      logger.debug("Starting " + getProgramName());
+      setProgramStarting(true);
+
+      beginProgramExecution(progArgs);
+
+      logger.debug("Finished Running Start Program Execution for: " + getProgramName());
+      setProgramRunning(true);
+      setProgramStartSuccessful(true);
+      setProgramStarting(false);
+    }
+    else {
+      logger.warn(getProgramName() + " Already Running!");
+    }
+  }
+
+  @Override
+  public void stopProgram() throws IlardiSystemsException {
+    if (isProgramRunning()) {
+      logger.debug("Stopping " + getProgramName());
+
+      endProgramExecution();
+
+      logger.debug("Finished Running End Program Execution for: " + getProgramName());
+      setProgramRunning(false);
+    }
+    else {
+      logger.warn(getProgramName() + " NOT Running!");
+    }
+  }
+
+  protected void baseProgramInit() throws IlardiSystemsException {
     synchronized (programLock) {
       try {
         logger.debug("Entering Base Init Routine...");
@@ -97,7 +144,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
         setupJmx();
       }
       catch (Exception e) {
-        throw new IlardiException("An error occurred while attempting to Initialize Base Program! System Message: " + e.getMessage(), e);
+        throw new IlardiSystemsException("An error occurred while attempting to Initialize Base Program! System Message: " + e.getMessage(), e);
       }
     }
   }
@@ -182,7 +229,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
   }
 
   @Override
-  public void destroy() throws IlardiException {
+  public void destroy() throws IlardiSystemsException {
     /*
      * Default implementation in the base class is empty as there is nothing to that
      * requires a custom cleanup function.
@@ -223,7 +270,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
   }
 
   @Override
-  public void waitWhileProgramRunning() throws IlardiException, InterruptedException {
+  public void waitWhileProgramRunning() throws IlardiSystemsException, InterruptedException {
     synchronized (programLock) {
       if (isProgramAsync()) {
         while (programRunning) {
@@ -234,7 +281,7 @@ public abstract class BaseLoadableProgram implements LoadableProgram {
   }
 
   @Override
-  public void waitWhileProgramStarting() throws IlardiException, InterruptedException {
+  public void waitWhileProgramStarting() throws IlardiSystemsException, InterruptedException {
     synchronized (programLock) {
       if (isProgramAsync()) {
         while (programStarting) {

@@ -3,7 +3,7 @@
  */
 package io.jdbcaf;
 
-import com.ilardi.systems.IlardiSystemsException;
+import io.ilardi.IlardiSystemsException;
 
 /**
  * @author robert.ilardi

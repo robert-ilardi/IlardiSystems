@@ -3,7 +3,7 @@
  */
 package com.ilardi.systems.net;
 
-import com.ilardi.systems.IlardiSystemsException;
+import io.ilardi.IlardiSystemsException;
 
 /**
  * @author rilardi

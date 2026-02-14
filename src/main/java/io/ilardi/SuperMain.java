@@ -21,21 +21,21 @@ public class SuperMain {
 
   private ProgramLoader pLoader;
 
-  public SuperMain(String programFriendlyName, String[] programArgs) throws IlardiException {
+  public SuperMain(String programFriendlyName, String[] programArgs) throws IlardiSystemsException {
     logger.debug("Creating PpogramLoader Instance");
     pLoader = ProgramLoader.getInstance(programFriendlyName, programArgs);
   }
 
-  public void startProgram()
-      throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, IlardiException {
+  public void startProgram() throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException,
+      InvocationTargetException, IlardiSystemsException {
     pLoader.startProgram();
   }
 
-  public void stopProgram() throws IlardiException {
+  public void stopProgram() throws IlardiSystemsException {
     pLoader.stopProgram();
   }
 
-  public void destroyProgram() throws IlardiException {
+  public void destroyProgram() throws IlardiSystemsException {
     pLoader.destroyProgram();
   }
 
@@ -55,11 +55,11 @@ public class SuperMain {
     return pLoader.isProgramAsync();
   }
 
-  public void waitWhileProgramRunning() throws IlardiException, InterruptedException {
+  public void waitWhileProgramRunning() throws IlardiSystemsException, InterruptedException {
     pLoader.waitWhileProgramRunning();
   }
 
-  public void waitWhileProgramStarting() throws IlardiException, InterruptedException {
+  public void waitWhileProgramStarting() throws IlardiSystemsException, InterruptedException {
     pLoader.waitWhileProgramStarting();
   }
 

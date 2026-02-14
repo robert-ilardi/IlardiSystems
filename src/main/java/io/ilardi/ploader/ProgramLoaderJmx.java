@@ -3,7 +3,7 @@
  */
 package io.ilardi.ploader;
 
-import io.ilardi.IlardiException;
+import io.ilardi.IlardiSystemsException;
 
 /**
  * @author robert.ilardi
@@ -24,7 +24,7 @@ public class ProgramLoaderJmx implements ProgramLoaderJmxMBean {
   }
 
   @Override
-  public void stopProgram() throws IlardiException, InterruptedException {
+  public void stopProgram() throws IlardiSystemsException, InterruptedException {
     program.stopProgram();
   }
 

@@ -1,16 +1,14 @@
 /**
  * Created Jan 31, 2021
  */
-package com.ilardi.systems;
-
-import io.ilardi.IlardiRuntimeException;
+package io.ilardi;
 
 /**
  * @author rilardi
  *
  */
 
-public class IlardiSystemsRuntimeException extends IlardiRuntimeException {
+public class IlardiSystemsRuntimeException extends RuntimeException {
 
   public IlardiSystemsRuntimeException() {
     super();

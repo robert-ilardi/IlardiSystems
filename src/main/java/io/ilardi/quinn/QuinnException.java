@@ -1,32 +1,31 @@
 /**
- * Created Apr 30, 2023
+ * Created Feb 14, 2026
  */
-package com.ilardi.experiments.cli;
+package io.ilardi.quinn;
 
 import io.ilardi.IlardiSystemsException;
 
 /**
- * @author robert.ilardi
- *
+ * Author Kate Ilardi
  */
 
-public class CliAppException extends IlardiSystemsException {
+public class QuinnException extends IlardiSystemsException {
 
-  public CliAppException() {
+  public QuinnException() {
     super();
   }
 
   /**
    * @param message
    */
-  public CliAppException(String message) {
+  public QuinnException(String message) {
     super(message);
   }
 
   /**
    * @param cause
    */
-  public CliAppException(Throwable cause) {
+  public QuinnException(Throwable cause) {
     super(cause);
   }
 
@@ -34,7 +33,7 @@ public class CliAppException extends IlardiSystemsException {
    * @param message
    * @param cause
    */
-  public CliAppException(String message, Throwable cause) {
+  public QuinnException(String message, Throwable cause) {
     super(message, cause);
   }
 
@@ -44,7 +43,7 @@ public class CliAppException extends IlardiSystemsException {
    * @param enableSuppression
    * @param writableStackTrace
    */
-  public CliAppException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+  public QuinnException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
     super(message, cause, enableSuppression, writableStackTrace);
   }
 

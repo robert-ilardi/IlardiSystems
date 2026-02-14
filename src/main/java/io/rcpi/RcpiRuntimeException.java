@@ -3,7 +3,7 @@
  */
 package io.rcpi;
 
-import com.ilardi.systems.IlardiSystemsRuntimeException;
+import io.ilardi.IlardiSystemsRuntimeException;
 
 /**
  * @author robert.ilardi

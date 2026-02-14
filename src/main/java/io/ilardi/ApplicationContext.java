@@ -26,16 +26,16 @@ public final class ApplicationContext {
 
   private static final Logger logger = LogManager.getLogger(ApplicationContext.class);
 
-  public static final String SYS_PROP_DEFAULT_APP_PROPS_PATH = "ilardi.app.AppPropsPath";
+  public static final String SYS_PROP_DEFAULT_APP_PROPS_PATH = "io.ilardi.systems.AppContext.AppPropsPath";
 
   private static final String SYS_PROP_PREFIX_APP_PROPS_CLASSPATH = "CLASSPATH://";
 
   private static final String DEFAULT_APP_PROPS_FILENAME = "ilardi-app.properties";
   private static final String DEFAULT_APP_PROPS_CLASSPATH = "CLASSPATH://" + DEFAULT_APP_PROPS_FILENAME;
 
-  private static final String PROP_APP_MODE = "ilardi.AppContext.appMode";
+  private static final String PROP_APP_MODE = "io.ilardi.systems.AppContext.appMode";
 
-  private static final String PROP_TEMP_DIR = "ilardi.AppContext.tempDir";
+  private static final String PROP_TEMP_DIR = "io.ilardi.systems.AppContext.tempDir";
 
   private static ApplicationContext instance = null;
 
@@ -67,7 +67,7 @@ public final class ApplicationContext {
     appSession = new HashMap<Object, Object>();
   }
 
-  public final synchronized static ApplicationContext getInstance() throws IlardiException {
+  public final synchronized static ApplicationContext getInstance() throws IlardiSystemsException {
     if (instance == null) {
       instance = new ApplicationContext();
       instance.init();
@@ -76,7 +76,7 @@ public final class ApplicationContext {
     return instance;
   }
 
-  private void init() throws IlardiException {
+  private void init() throws IlardiSystemsException {
     synchronized (instanceLock) {
       logger.debug("Application Context Initializing...");
 
@@ -94,7 +94,7 @@ public final class ApplicationContext {
     }
   }
 
-  private void loadAppMode() throws IlardiException {
+  private void loadAppMode() throws IlardiSystemsException {
     String tmp;
 
     tmp = getAppProperty(PROP_APP_MODE);
@@ -107,7 +107,7 @@ public final class ApplicationContext {
     }
   }
 
-  private void loadTempDir() throws IlardiException {
+  private void loadTempDir() throws IlardiSystemsException {
     String tmp;
 
     tmp = getAppProperty(PROP_TEMP_DIR);
@@ -124,7 +124,7 @@ public final class ApplicationContext {
     return tempDir;
   }
 
-  public void destroy() throws IlardiException {
+  public void destroy() throws IlardiSystemsException {
     synchronized (instanceLock) {
       if (destroyed) {
         return;
@@ -234,46 +234,46 @@ public final class ApplicationContext {
     }
   }
 
-  public String getAppProperty(String propName) throws IlardiException {
+  public String getAppProperty(String propName) throws IlardiSystemsException {
     synchronized (instanceLock) {
       try {
         return appProps.getProperty(propName);
       } // End try block
       catch (Exception e) {
-        throw new IlardiException("An error occurred while attempting to Get App Property. System Message: " + e.getMessage(), e);
+        throw new IlardiSystemsException("An error occurred while attempting to Get App Property. System Message: " + e.getMessage(), e);
       }
     }
   }
 
-  public void setAppProperty(String propName, String propValue) throws IlardiException {
+  public void setAppProperty(String propName, String propValue) throws IlardiSystemsException {
     synchronized (instanceLock) {
       try {
         appProps.setProperty(propName, propValue);
       } // End try block
       catch (Exception e) {
-        throw new IlardiException("An error occurred while attempting to Set App Property. System Message: " + e.getMessage(), e);
+        throw new IlardiSystemsException("An error occurred while attempting to Set App Property. System Message: " + e.getMessage(), e);
       }
     }
   }
 
-  public void removeAppProperty(String propName) throws IlardiException {
+  public void removeAppProperty(String propName) throws IlardiSystemsException {
     synchronized (instanceLock) {
       try {
         appProps.remove(propName);
       } // End try block
       catch (Exception e) {
-        throw new IlardiException("An error occurred while attempting to Remove App Property. System Message: " + e.getMessage(), e);
+        throw new IlardiSystemsException("An error occurred while attempting to Remove App Property. System Message: " + e.getMessage(), e);
       }
     }
   }
 
-  public void clearAppProperty() throws IlardiException {
+  public void clearAppProperty() throws IlardiSystemsException {
     synchronized (instanceLock) {
       try {
         appProps.clear();
       } // End try block
       catch (Exception e) {
-        throw new IlardiException("An error occurred while attempting to Clear App Properties. System Message: " + e.getMessage(), e);
+        throw new IlardiSystemsException("An error occurred while attempting to Clear App Properties. System Message: " + e.getMessage(), e);
       }
     }
   }
@@ -317,7 +317,7 @@ public final class ApplicationContext {
     } // End Sync Block
   }
 
-  private void loadAppProperties() throws IlardiException {
+  private void loadAppProperties() throws IlardiSystemsException {
     synchronized (instanceLock) {
       try {
         logger.debug("Loading App Properties File into Application Context");
@@ -327,7 +327,7 @@ public final class ApplicationContext {
         logger.debug("Successfully Loaded " + appProps.size() + " Properties from App Properties in: " + appPropsPath);
       } // End try block
       catch (Exception e) {
-        throw new IlardiException("An error occurred while attempting to Load App Properties. System Message: " + e.getMessage(), e);
+        throw new IlardiSystemsException("An error occurred while attempting to Load App Properties. System Message: " + e.getMessage(), e);
       }
     }
   }
@@ -367,7 +367,7 @@ public final class ApplicationContext {
     }
   }
 
-  public void saveAppProperties(String optionalComment) throws IlardiException {
+  public void saveAppProperties(String optionalComment) throws IlardiSystemsException {
 
     synchronized (instanceLock) {
       logger.debug("Saving App Properties File from Application Context");
@@ -376,7 +376,7 @@ public final class ApplicationContext {
         saveProperties(appProps, appPropsPath, optionalComment);
       } // End try block
       catch (Exception e) {
-        throw new IlardiException("An error occurred while attempting to Save App Properties. System Message: " + e.getMessage(), e);
+        throw new IlardiSystemsException("An error occurred while attempting to Save App Properties. System Message: " + e.getMessage(), e);
       }
     }
   }
@@ -406,7 +406,7 @@ public final class ApplicationContext {
 
   }
 
-  public List<String> getAppPropertyNames() throws IlardiException {
+  public List<String> getAppPropertyNames() throws IlardiSystemsException {
     Set<Object> keySet;
     Iterator<Object> iter;
     String propName;
@@ -436,7 +436,7 @@ public final class ApplicationContext {
         return propNames;
       } // End try block
       catch (Exception e) {
-        throw new IlardiException("An error occurred while attempting to Build List of App Property Names. System Message: " + e.getMessage(), e);
+        throw new IlardiSystemsException("An error occurred while attempting to Build List of App Property Names. System Message: " + e.getMessage(), e);
       }
     }
   }

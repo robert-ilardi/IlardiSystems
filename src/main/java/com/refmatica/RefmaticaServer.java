@@ -6,8 +6,7 @@ package com.refmatica;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.ilardi.systems.IlardiSystemsException;
-
+import io.ilardi.IlardiSystemsException;
 import io.ilardi.ploader.BaseLoadableProgram;
 import io.ilardi.ploader.ProgramLoader;
 
@@ -28,13 +27,19 @@ public class RefmaticaServer extends BaseLoadableProgram {
   }
 
   @Override
-  public void startProgram(String[] progArgs) throws IlardiSystemsException {
+  protected void runProgramInit() throws IlardiSystemsException {
     // TODO Auto-generated method stub
 
   }
 
   @Override
-  public void stopProgram() throws IlardiSystemsException {
+  protected void beginProgramExecution(String[] progArgs) throws IlardiSystemsException {
+    // TODO Auto-generated method stub
+
+  }
+
+  @Override
+  protected void endProgramExecution() throws IlardiSystemsException {
     // TODO Auto-generated method stub
 
   }
