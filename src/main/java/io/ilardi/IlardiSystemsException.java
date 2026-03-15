@@ -34,7 +34,6 @@ public class IlardiSystemsException extends Exception {
    */
   public IlardiSystemsException(String message, Throwable cause) {
     super(message, cause);
-    // TODO Auto-generated constructor stub
   }
 
   /**
