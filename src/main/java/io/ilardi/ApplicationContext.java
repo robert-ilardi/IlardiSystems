@@ -80,6 +80,8 @@ public final class ApplicationContext {
     synchronized (instanceLock) {
       logger.debug("Application Context Initializing...");
 
+      printUsage();
+
       locateUserHomeDirectory();
 
       locateAppPropertiesPath();
@@ -92,6 +94,46 @@ public final class ApplicationContext {
 
       instanceLock.notifyAll();
     }
+  }
+
+  private void printUsage() {
+    String usage;
+
+    usage = getUsage();
+
+    logger.debug(usage);
+  }
+
+  private String getUsage() {
+    String usage;
+    StringBuilder sb;
+
+    sb = new StringBuilder();
+
+    sb.append("Usage of ");
+    sb.append(ApplicationContext.class.getName());
+
+    sb.append("\n\tDefault Application Properties Filename: ");
+    sb.append(DEFAULT_APP_PROPS_FILENAME);
+
+    sb.append("\n\tDefault Application Properties Classpath: ");
+    sb.append(DEFAULT_APP_PROPS_CLASSPATH);
+
+    sb.append("\n\tSystem Property Default Application Properties Path: ");
+    sb.append(SYS_PROP_DEFAULT_APP_PROPS_PATH);
+
+    sb.append("\n\tUse this Prefix to point to Application Properties in Classpath: ");
+    sb.append(SYS_PROP_PREFIX_APP_PROPS_CLASSPATH);
+
+    sb.append("\n\tProperty to set Application Mode: ");
+    sb.append(PROP_APP_MODE);
+
+    sb.append("\n\tProperty to set Temp Directory: ");
+    sb.append(PROP_TEMP_DIR);
+
+    usage = sb.toString();
+
+    return usage;
   }
 
   private void loadAppMode() throws IlardiSystemsException {
