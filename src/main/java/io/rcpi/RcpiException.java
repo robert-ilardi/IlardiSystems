@@ -6,7 +6,7 @@ package io.rcpi;
 import io.ilardi.IlardiSystemsException;
 
 /**
- * @author robert.ilardi
+ * @author kilardi
  */
 
 public class RcpiException extends IlardiSystemsException {

@@ -6,8 +6,7 @@ package io.ilardi;
 import java.io.Serializable;
 
 /**
- * @author robert.ilardi
- * @param <T>
+ * @author kilardi
  */
 
 public class NameValuePair<T> implements Comparable<NameValuePair<T>>, Serializable, Cloneable {

@@ -6,7 +6,7 @@ package io.ilardi;
 import java.io.Serializable;
 
 /**
- * @author robert.ilardi
+ * @author kilardi
  *
  */
 

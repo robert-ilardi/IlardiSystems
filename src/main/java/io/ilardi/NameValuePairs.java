@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author robert.ilardi
+ * @author kilardi
  */
 
 public class NameValuePairs<T> implements Comparable<NameValuePairs<T>>, Serializable, Cloneable {

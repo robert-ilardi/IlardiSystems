@@ -4,7 +4,7 @@
 package io.ilardi;
 
 /**
- * @author robert.ilardi
+ * @author kilardi
  */
 
 public class VersionInfo implements ValueObject {

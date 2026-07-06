@@ -6,7 +6,7 @@ package io.ilardi;
 import java.time.LocalDateTime;
 
 /**
- * @Author rober
+ * @Author kilardi
  */
 
 public class BasicObjectAuditInfo implements ValueObject {

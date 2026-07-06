@@ -4,7 +4,7 @@
 package io.ilardi;
 
 /**
- * @author robert.ilardi
+ * @author kilardi
  */
 
 public interface ValueObject extends DomainObject, Comparable<ValueObject> {

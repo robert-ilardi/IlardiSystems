@@ -4,7 +4,7 @@
 package io.ilardi;
 
 /**
- * @author rilardi
+ * @author kilardi
  *
  */
 

@@ -1,7 +1,7 @@
 /**
  * Created Jun 15, 2024
  */
-package com.ilardi.systems.util;
+package io.ilardi;
 
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
