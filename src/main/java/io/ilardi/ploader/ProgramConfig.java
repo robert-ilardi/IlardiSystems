@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.Properties;
 
 /**
- * @author rober
+ * @author kilardi
  */
 
 public class ProgramConfig implements Serializable {

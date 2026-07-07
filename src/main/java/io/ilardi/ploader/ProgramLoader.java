@@ -17,7 +17,7 @@ import io.ilardi.IlardiStringUtils;
 import io.ilardi.IlardiSystemsException;
 
 /**
- * @author robert.ilardi
+ * @author kilardi
  *
  */
 
