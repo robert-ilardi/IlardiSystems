@@ -6,7 +6,7 @@ package com.ilardi.systems.gte;
 import java.io.Serializable;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

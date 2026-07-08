@@ -4,7 +4,7 @@
 package com.roguelogic.icbm;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class Impact {

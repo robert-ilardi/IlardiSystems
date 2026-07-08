@@ -34,7 +34,7 @@ import com.roguelogic.gui.RLErrorDialog;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

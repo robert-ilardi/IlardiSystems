@@ -22,7 +22,7 @@ import com.roguelogic.util.RLSystemUtils;
  * This class contains Version and Application information for the Sambuca HTTP
  * Framework.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

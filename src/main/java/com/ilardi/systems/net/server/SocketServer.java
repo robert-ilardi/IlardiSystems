@@ -18,7 +18,7 @@ import com.ilardi.systems.net.IlardiNetException;
 import com.ilardi.systems.net.Version;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

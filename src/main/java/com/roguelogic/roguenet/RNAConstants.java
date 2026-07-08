@@ -4,7 +4,7 @@
 package com.roguelogic.roguenet;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -4,7 +4,7 @@
 package com.ilardi.systems.net.intalk;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

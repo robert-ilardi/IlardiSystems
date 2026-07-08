@@ -6,7 +6,7 @@ package com.refmatica.mediator;
 import java.io.Serializable;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public enum RefmaticaMediatorType implements Serializable {

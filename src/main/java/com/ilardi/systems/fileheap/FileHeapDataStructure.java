@@ -8,7 +8,7 @@ import java.io.Serializable;
 import com.ilardi.systems.jefs.JefsPageHeader;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

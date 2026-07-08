@@ -10,7 +10,7 @@ import com.roguelogic.p2phub.P2PHubMessage;
 import com.roguelogic.p2phub.client.P2PHubMessageObserver;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

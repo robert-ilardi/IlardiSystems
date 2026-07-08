@@ -15,7 +15,7 @@ import com.ilardi.experiments.dbms.query.sql.parsing.Table;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

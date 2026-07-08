@@ -31,7 +31,7 @@ import com.roguelogic.roguenet.Version;
 import com.roguelogic.roguenet.plugins.RNMessenger;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

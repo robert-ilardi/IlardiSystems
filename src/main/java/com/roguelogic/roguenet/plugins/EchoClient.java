@@ -14,7 +14,7 @@ import com.roguelogic.roguenet.SynchronousTransactionRequestor;
 import com.roguelogic.roguenet.gui.EchoClientDialog;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

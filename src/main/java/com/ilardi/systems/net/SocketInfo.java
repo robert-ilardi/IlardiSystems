@@ -9,7 +9,7 @@ import java.net.UnknownHostException;
 import java.util.Properties;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -6,7 +6,7 @@ package com.ilardi.experiments.log;
 import java.util.logging.Level;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

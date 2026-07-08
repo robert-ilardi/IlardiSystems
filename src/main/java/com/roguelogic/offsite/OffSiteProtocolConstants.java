@@ -4,7 +4,7 @@
 package com.roguelogic.offsite;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

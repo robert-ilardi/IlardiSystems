@@ -6,7 +6,7 @@ package com.roguelogic.thumbnails;
 import java.io.FileOutputStream;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

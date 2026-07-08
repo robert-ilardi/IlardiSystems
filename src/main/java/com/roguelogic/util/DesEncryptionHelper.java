@@ -20,7 +20,7 @@ import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.PBEParameterSpec;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

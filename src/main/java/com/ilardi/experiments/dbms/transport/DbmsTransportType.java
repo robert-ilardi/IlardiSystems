@@ -6,7 +6,7 @@ package com.ilardi.experiments.dbms.transport;
 import java.io.Serializable;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

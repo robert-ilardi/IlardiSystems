@@ -6,7 +6,7 @@ package com.ilardi.experiments.dbms;
 import io.ilardi.IlardiSystemsException;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Random;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

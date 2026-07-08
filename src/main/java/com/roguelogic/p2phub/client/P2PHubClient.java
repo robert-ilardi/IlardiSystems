@@ -23,7 +23,7 @@ import com.roguelogic.p2phub.P2PHubPeer;
 import com.roguelogic.p2phub.P2PHubUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

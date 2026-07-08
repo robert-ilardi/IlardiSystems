@@ -10,7 +10,7 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlType;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -7,7 +7,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

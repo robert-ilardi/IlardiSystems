@@ -34,7 +34,7 @@ import javax.swing.event.MouseInputListener;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  * 
  */
 public class JDaliClockPanel extends JPanel implements MouseInputListener {

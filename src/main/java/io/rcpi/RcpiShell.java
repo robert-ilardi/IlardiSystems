@@ -4,7 +4,7 @@
 package io.rcpi;
 
 /**
- * @author kilardi
+ * @author Kate Ilardi
  */
 
 public class RcpiShell {

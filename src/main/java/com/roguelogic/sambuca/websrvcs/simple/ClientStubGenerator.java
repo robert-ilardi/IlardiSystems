@@ -37,7 +37,7 @@ import com.roguelogic.util.HttpServletCaller;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class ClientStubGenerator {

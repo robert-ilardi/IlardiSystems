@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

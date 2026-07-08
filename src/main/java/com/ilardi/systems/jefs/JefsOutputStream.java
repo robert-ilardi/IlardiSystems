@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

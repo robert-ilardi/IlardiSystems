@@ -18,7 +18,7 @@ import com.roguelogic.roguenet.SynchronousTransactionRequestor;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

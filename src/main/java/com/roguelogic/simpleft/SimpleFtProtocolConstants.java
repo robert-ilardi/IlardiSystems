@@ -4,7 +4,7 @@
 package com.roguelogic.simpleft;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

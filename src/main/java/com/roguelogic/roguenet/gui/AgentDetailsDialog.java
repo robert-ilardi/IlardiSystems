@@ -43,7 +43,7 @@ import com.roguelogic.p2phub.P2PHubMessage;
 import com.roguelogic.roguenet.Version;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

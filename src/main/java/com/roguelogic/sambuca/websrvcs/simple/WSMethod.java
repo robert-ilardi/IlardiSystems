@@ -23,7 +23,7 @@ package com.roguelogic.sambuca.websrvcs.simple;
 import java.util.ArrayList;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

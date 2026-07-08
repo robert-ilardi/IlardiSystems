@@ -6,7 +6,7 @@ package com.roguelogic.net.rltalk;
 import com.roguelogic.util.SimpleXORCodec;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 public class RLTalkXorCodec extends SimpleXORCodec {

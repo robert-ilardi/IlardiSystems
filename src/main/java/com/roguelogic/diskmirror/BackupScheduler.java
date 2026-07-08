@@ -10,7 +10,7 @@ import com.roguelogic.util.RLStringUtils;
 import com.roguelogic.util.TimeBasedScheduler;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

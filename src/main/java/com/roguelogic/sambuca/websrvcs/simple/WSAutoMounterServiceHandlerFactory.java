@@ -33,7 +33,7 @@ import com.roguelogic.sambuca.websrvcs.SambucaWebServiceException;
  * The ServiceHandlerFactory implementation used by the WebServiceAutoMounter to
  * create WSAutoMounterServiceHandlers.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

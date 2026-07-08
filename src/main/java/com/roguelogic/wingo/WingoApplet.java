@@ -34,7 +34,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class WingoApplet extends JApplet {

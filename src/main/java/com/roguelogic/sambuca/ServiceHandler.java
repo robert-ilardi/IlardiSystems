@@ -31,7 +31,7 @@ package com.roguelogic.sambuca;
  * environments with tight resources may consider this type of implementation
  * but should be aware of possible threading issues with the server.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

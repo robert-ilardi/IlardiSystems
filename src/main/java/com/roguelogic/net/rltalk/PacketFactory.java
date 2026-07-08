@@ -4,7 +4,7 @@
 package com.roguelogic.net.rltalk;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class PacketFactory {

@@ -8,7 +8,7 @@ import com.ilardi.experiments.elasticj.model.EjTransportMessage;
 import com.ilardi.experiments.elasticj.util.EjException;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

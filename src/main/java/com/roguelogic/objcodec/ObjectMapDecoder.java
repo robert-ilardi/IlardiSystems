@@ -12,7 +12,7 @@ import java.util.Set;
 import com.roguelogic.util.AutoSizeArray;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class ObjectMapDecoder {

@@ -23,7 +23,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 public class ICBMPanel extends JPanel implements MouseListener, KeyListener {
 

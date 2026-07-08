@@ -22,7 +22,7 @@ package com.roguelogic.snakies;
 
 /**
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

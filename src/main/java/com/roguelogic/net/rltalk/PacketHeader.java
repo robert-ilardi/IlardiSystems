@@ -6,7 +6,7 @@ package com.roguelogic.net.rltalk;
 import com.roguelogic.util.IntUtils;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class PacketHeader {

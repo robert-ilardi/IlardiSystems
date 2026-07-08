@@ -36,7 +36,7 @@ import com.roguelogic.roguenet.Version;
 import com.roguelogic.util.RLSystemUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

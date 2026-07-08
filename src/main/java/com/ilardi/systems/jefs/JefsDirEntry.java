@@ -6,7 +6,7 @@ package com.ilardi.systems.jefs;
 import java.util.ArrayList;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

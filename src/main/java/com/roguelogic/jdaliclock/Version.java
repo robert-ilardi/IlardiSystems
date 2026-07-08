@@ -20,7 +20,7 @@ package com.roguelogic.jdaliclock;
  * This class contains Version and Application information for the jDaliClock
  * App.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

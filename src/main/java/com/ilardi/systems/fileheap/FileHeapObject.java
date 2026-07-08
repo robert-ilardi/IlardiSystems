@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.nio.ByteBuffer;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

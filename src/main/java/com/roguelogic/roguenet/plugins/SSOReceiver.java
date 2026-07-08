@@ -29,7 +29,7 @@ import com.roguelogic.roguenet.RNAPlugInInfo;
 import com.roguelogic.roguenet.RogueNetException;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

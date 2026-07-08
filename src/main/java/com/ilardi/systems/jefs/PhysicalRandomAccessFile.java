@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

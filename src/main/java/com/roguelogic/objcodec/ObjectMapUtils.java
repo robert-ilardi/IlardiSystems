@@ -3,7 +3,7 @@ package com.roguelogic.objcodec;
 import java.lang.reflect.Field;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class ObjectMapUtils {

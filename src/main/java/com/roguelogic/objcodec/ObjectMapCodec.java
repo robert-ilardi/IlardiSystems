@@ -8,7 +8,7 @@ import java.util.Set;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class ObjectMapCodec {

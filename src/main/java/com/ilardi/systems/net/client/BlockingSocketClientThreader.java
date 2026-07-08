@@ -12,7 +12,7 @@ import com.ilardi.systems.net.SessionContext;
 import com.ilardi.systems.net.SocketProcessor;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

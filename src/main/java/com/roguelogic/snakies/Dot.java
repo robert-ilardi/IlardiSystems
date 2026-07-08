@@ -7,7 +7,7 @@ import java.awt.Color;
 import java.awt.Point;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 public class Dot extends Point {

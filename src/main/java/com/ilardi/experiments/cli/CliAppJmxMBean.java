@@ -4,7 +4,7 @@
 package com.ilardi.experiments.cli;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

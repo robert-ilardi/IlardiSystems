@@ -17,7 +17,7 @@ import com.ilardi.systems.net.SocketSession;
 import com.ilardi.systems.net.SocketWriter;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

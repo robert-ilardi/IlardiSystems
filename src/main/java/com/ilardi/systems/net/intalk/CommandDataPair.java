@@ -9,7 +9,7 @@ import java.util.Arrays;
 import com.ilardi.systems.net.IlardiNetException;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

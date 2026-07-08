@@ -6,7 +6,7 @@ package com.roguelogic.p2phub;
 import java.io.Serializable;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

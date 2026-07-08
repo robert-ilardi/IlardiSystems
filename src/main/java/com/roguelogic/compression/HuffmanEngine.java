@@ -8,7 +8,7 @@ package com.roguelogic.compression;
 
 /**
  *
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  */
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

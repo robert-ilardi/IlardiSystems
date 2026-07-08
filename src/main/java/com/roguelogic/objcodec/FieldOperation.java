@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class FieldOperation implements Serializable {

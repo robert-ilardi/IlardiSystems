@@ -16,7 +16,7 @@ import com.ilardi.systems.jefs.JefsPage;
 import com.ilardi.systems.jefs.JefsPageHeader;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

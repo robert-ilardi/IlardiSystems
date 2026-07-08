@@ -4,7 +4,7 @@
 package io.ilardi;
 
 /**
- * @Author kilardi
+ * @author Kate Ilardi
  */
 
 public enum LastModificationChangeCodes implements DomainObject {

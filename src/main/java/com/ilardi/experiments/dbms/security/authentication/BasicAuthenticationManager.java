@@ -6,7 +6,7 @@ package com.ilardi.experiments.dbms.security.authentication;
 import com.ilardi.experiments.dbms.AppDbException;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

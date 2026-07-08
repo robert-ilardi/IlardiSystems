@@ -37,7 +37,7 @@ import com.roguelogic.roguenet.plugins.EchoClient;
 import com.roguelogic.util.RLSystemUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -6,7 +6,7 @@ package com.roguelogic.entitlements;
 import java.util.Properties;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

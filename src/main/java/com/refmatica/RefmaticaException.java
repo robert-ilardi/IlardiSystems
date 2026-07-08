@@ -6,7 +6,7 @@ package com.refmatica;
 import io.ilardi.IlardiSystemsException;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public class RefmaticaException extends IlardiSystemsException {

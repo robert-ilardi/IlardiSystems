@@ -4,7 +4,7 @@
 package com.refmatica.cmds;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public class RefmaticaCmdExecutable {

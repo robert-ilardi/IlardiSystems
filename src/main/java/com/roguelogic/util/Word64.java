@@ -6,7 +6,7 @@ package com.roguelogic.util;
 import java.io.Serializable;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

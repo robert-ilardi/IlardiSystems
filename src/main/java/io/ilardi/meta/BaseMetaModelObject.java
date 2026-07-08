@@ -6,7 +6,7 @@ package io.ilardi.meta;
 import io.ilardi.ValueObject;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public class BaseMetaModelObject implements MetaModelObject {

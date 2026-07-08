@@ -4,7 +4,7 @@
 package com.ilardi.experiments.elasticj.model;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -13,7 +13,7 @@ import com.roguelogic.roguenet.RogueNetException;
 import com.roguelogic.roguenet.gui.NetworkExplorer;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -12,7 +12,7 @@ import com.roguelogic.propexchange.PropExchangePayload;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

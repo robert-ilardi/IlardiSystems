@@ -19,7 +19,7 @@ package com.roguelogic.util;
 import java.io.Serializable;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class IndexedItem implements Serializable {

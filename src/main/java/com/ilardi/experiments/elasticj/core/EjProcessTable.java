@@ -8,7 +8,7 @@ import java.util.HashMap;
 import com.ilardi.experiments.elasticj.model.EjProcessInfo;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -9,7 +9,7 @@ import java.util.Properties;
 import com.ilardi.experiments.dbms.transport.DbmsTransportType;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

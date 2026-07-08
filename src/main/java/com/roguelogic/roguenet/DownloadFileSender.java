@@ -24,7 +24,7 @@ import com.roguelogic.p2phub.P2PHubMessage;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

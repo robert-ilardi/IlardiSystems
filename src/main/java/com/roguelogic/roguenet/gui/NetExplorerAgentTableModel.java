@@ -10,7 +10,7 @@ import javax.swing.table.AbstractTableModel;
 import com.roguelogic.roguenet.RNAConstants;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 public class NetExplorerAgentTableModel extends AbstractTableModel {

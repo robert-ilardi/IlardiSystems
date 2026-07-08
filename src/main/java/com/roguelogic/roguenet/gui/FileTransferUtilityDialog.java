@@ -60,7 +60,7 @@ import com.roguelogic.roguenet.plugins.SynchronousTransactionReceiver;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

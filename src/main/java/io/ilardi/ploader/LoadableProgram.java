@@ -6,7 +6,7 @@ package io.ilardi.ploader;
 import io.ilardi.IlardiSystemsException;
 
 /**
- * @author kilardi
+ * @author Kate Ilardi
  */
 
 public interface LoadableProgram {

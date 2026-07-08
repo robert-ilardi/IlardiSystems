@@ -27,7 +27,7 @@ import java.util.Iterator;
 /**
  * This class represents an HTTP Request read by the server.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

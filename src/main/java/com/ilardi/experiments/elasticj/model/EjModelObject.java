@@ -6,7 +6,7 @@ package com.ilardi.experiments.elasticj.model;
 import java.io.Serializable;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

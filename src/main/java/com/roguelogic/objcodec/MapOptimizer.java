@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class MapOptimizer implements Serializable {

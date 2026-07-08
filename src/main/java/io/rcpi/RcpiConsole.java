@@ -11,7 +11,7 @@ import io.ilardi.ploader.BaseLoadableProgram;
 import io.ilardi.ploader.ProgramLoader;
 
 /**
- * @author kilardi
+ * @author Kate Ilardi
  */
 
 public class RcpiConsole extends BaseLoadableProgram {

@@ -21,7 +21,7 @@
 package com.roguelogic.sambuca.websrvcs.simple;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

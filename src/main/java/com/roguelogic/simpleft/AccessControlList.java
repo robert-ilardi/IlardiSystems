@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import com.roguelogic.util.FilenameUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

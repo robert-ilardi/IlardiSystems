@@ -31,7 +31,7 @@ import javax.swing.JApplet;
 import javax.swing.JPanel;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  * 
  */
 public class JDaliClockApplet extends JApplet {

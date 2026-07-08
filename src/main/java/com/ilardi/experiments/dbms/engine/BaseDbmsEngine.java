@@ -9,7 +9,7 @@ import com.ilardi.experiments.dbms.AppDbException;
 import com.ilardi.experiments.dbms.mediator.DbmsMediator;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

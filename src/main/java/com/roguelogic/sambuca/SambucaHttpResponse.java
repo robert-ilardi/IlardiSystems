@@ -34,7 +34,7 @@ import com.roguelogic.net.SocketSession;
  * only store data about the response but actually write that data back to the
  * client over the network.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

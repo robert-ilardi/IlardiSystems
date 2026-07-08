@@ -23,7 +23,7 @@ package com.roguelogic.sambuca.websrvcs;
 import com.roguelogic.sambuca.SambucaException;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

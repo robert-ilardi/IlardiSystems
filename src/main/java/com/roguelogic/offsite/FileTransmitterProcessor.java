@@ -16,7 +16,7 @@ import com.roguelogic.net.rltalk.CommandDataPair;
 import com.roguelogic.net.rltalk.RLTalkSocketProcessor;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

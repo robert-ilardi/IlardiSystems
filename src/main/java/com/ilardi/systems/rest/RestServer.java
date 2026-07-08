@@ -11,7 +11,7 @@ import io.ilardi.ploader.BaseLoadableProgram;
 import io.ilardi.ploader.ProgramLoader;
 
 /**
- * @Author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public class RestServer extends BaseLoadableProgram {

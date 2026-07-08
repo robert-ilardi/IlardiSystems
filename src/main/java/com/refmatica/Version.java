@@ -4,7 +4,7 @@
 package com.refmatica;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public class Version {

@@ -22,7 +22,7 @@ package com.roguelogic.jdaliclock;
 import java.awt.Graphics;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 public interface Digit {

@@ -22,7 +22,7 @@
 
 /**
  *
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 package com.roguelogic.net;

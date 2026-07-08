@@ -10,7 +10,7 @@ import com.ilardi.systems.net.SessionContext;
 import com.ilardi.systems.net.client.SocketClient;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -6,7 +6,7 @@ package io.jdbcaf;
 import io.ilardi.IlardiSystemsException;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public class JdbcAfException extends IlardiSystemsException {

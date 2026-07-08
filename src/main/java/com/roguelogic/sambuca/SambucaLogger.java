@@ -25,7 +25,7 @@ package com.roguelogic.sambuca;
  * interface to create specialized Loggers which can be plugged into the Sambuca
  * kernel for custom logging of server events and request processing.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

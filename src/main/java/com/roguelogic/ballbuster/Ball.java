@@ -4,7 +4,7 @@
 package com.roguelogic.ballbuster;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class Ball {

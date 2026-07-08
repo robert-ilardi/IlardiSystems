@@ -4,7 +4,7 @@
 package com.ilardi.experiments.dbms;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

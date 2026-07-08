@@ -4,7 +4,7 @@
 package com.refmatica.dao;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public interface RefmaticaDataAccessObject {

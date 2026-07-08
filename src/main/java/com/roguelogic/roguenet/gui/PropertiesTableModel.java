@@ -8,7 +8,7 @@ import java.util.Vector;
 import javax.swing.table.AbstractTableModel;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 public class PropertiesTableModel extends AbstractTableModel {

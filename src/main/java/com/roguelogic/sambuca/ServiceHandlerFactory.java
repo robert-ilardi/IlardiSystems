@@ -45,7 +45,7 @@ package com.roguelogic.sambuca;
  * SambucaHttpServer instance to create new instances of the User Defined
  * ServiceHandler Implementation as needed by the server.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

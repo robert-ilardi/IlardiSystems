@@ -23,7 +23,7 @@ package com.roguelogic.jdaliclock;
 import java.awt.Graphics;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  * 
  */
 

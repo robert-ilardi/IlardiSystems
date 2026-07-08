@@ -6,7 +6,7 @@ package com.ilardi.systems.net;
 import java.time.format.DateTimeFormatter;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -39,7 +39,7 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class RLSystemUtils {

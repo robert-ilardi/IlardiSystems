@@ -11,7 +11,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class CommandDataPair {

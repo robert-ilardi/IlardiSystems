@@ -13,7 +13,7 @@ import com.refmatica.cmds.RefmaticaCmdArgument;
 import com.refmatica.cmds.RefmaticaCmdKeyword;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "type")

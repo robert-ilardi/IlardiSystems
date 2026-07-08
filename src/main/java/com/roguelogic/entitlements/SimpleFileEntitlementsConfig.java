@@ -4,7 +4,7 @@
 package com.roguelogic.entitlements;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -20,7 +20,7 @@ import org.junit.jupiter.api.TestInstance.Lifecycle;
 import io.ilardi.ApplicationContext;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

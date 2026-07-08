@@ -25,7 +25,7 @@ import com.roguelogic.net.RLNetException;
 /**
  * Sambuca Framework root Exception class.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 public class SambucaException extends RLNetException {

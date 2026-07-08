@@ -6,7 +6,7 @@ package com.refmatica.objmodel;
 import java.io.Serializable;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public abstract class RefmaticaBaseObject implements Serializable {

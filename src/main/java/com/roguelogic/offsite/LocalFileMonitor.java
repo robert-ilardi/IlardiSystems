@@ -14,7 +14,7 @@ import java.util.HashMap;
 import com.roguelogic.util.FilenameUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

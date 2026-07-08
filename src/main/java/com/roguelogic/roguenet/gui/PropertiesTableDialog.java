@@ -25,7 +25,7 @@ import javax.swing.JTable;
 import javax.swing.table.TableColumn;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

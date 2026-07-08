@@ -35,7 +35,7 @@ import com.roguelogic.net.SocketSessionSweeper;
  * start a HTTP Server listening on a specific port. Users must initialize this
  * class correctly to create an "embedded" java based HTTP Server.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

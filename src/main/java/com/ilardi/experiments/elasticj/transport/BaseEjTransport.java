@@ -8,7 +8,7 @@ import com.ilardi.experiments.log.LogUtil;
 import com.ilardi.experiments.log.Logger;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

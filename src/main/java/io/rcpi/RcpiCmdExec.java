@@ -7,7 +7,7 @@ import io.rcpi.model.RcpiCmdArg;
 import io.rcpi.model.RcpiCmdExitStatus;
 
 /**
- * @author kilardi
+ * @author Kate Ilardi
  */
 
 public interface RcpiCmdExec {

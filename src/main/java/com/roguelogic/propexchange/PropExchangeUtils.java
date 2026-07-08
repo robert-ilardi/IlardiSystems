@@ -17,7 +17,7 @@ import com.roguelogic.net.rltalk.RLTalkException;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

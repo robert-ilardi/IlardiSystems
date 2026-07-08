@@ -4,7 +4,7 @@
 package com.metap;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 public class MetaPC {
 

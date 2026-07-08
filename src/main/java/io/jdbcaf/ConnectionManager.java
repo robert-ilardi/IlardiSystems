@@ -4,7 +4,7 @@
 package io.jdbcaf;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public class ConnectionManager {

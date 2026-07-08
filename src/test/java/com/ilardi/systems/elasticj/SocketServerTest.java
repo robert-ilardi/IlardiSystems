@@ -19,7 +19,7 @@ import com.ilardi.systems.net.SocketType;
 import com.ilardi.systems.net.server.SocketServer;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

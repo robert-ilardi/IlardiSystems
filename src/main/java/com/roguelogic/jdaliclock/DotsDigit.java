@@ -23,7 +23,7 @@ import java.awt.Graphics;
 import java.awt.Point;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 public class DotsDigit implements Digit {

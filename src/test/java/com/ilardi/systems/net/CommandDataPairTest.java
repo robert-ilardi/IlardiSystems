@@ -17,7 +17,7 @@ import com.ilardi.systems.net.intalk.CommandDataPair;
 import com.ilardi.systems.net.intalk.DebugInTalkSocketProcessor;
 
 /**
- * @author rober
+ * @author Kate Ilardi
  */
 
 @TestInstance(Lifecycle.PER_CLASS)

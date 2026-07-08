@@ -9,7 +9,7 @@ import java.util.List;
 import com.ilardi.experiments.dbms.query.DbmsStatement;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

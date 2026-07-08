@@ -36,7 +36,7 @@ import com.roguelogic.roguenet.RNALogger;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

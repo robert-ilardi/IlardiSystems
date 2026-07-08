@@ -6,7 +6,7 @@ package com.roguelogic.net.rltalk;
 import com.roguelogic.net.RLNetException;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class RLTalkException extends RLNetException {

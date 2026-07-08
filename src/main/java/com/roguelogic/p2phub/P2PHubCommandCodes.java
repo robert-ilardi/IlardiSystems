@@ -4,7 +4,7 @@
 package com.roguelogic.p2phub;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -19,7 +19,7 @@ import com.roguelogic.roguenet.gui.RNMessengerDialog;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

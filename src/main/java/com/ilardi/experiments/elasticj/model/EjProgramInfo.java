@@ -6,7 +6,7 @@ package com.ilardi.experiments.elasticj.model;
 import java.util.List;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

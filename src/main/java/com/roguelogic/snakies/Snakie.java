@@ -24,7 +24,7 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

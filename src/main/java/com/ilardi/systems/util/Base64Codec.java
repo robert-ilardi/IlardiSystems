@@ -24,7 +24,7 @@ import java.io.ByteArrayOutputStream;
 import java.util.HashMap;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

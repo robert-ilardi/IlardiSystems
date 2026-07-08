@@ -16,7 +16,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

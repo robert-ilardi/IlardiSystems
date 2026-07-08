@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlEnum;
 import javax.xml.bind.annotation.XmlType;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

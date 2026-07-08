@@ -6,7 +6,7 @@ package com.roguelogic.roguenet.gui;
 import javax.swing.ImageIcon;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

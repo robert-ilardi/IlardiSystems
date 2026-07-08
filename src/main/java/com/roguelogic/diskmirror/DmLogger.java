@@ -2,7 +2,7 @@ package com.roguelogic.diskmirror;
 
 /**
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

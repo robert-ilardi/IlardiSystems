@@ -6,7 +6,7 @@ package com.roguelogic.net.rltalk;
 import java.io.Serializable;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -19,7 +19,7 @@ import io.ilardi.ApplicationContext;
 import io.ilardi.IlardiSystemsException;
 
 /**
- * @author kilardi
+ * @author Kate Ilardi
  *
  */
 

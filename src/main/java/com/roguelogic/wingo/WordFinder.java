@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class WordFinder {

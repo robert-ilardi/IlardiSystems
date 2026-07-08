@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.Arrays;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

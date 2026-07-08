@@ -6,7 +6,7 @@ package com.ilardi.experiments.elasticj.core;
 import com.ilardi.experiments.elasticj.util.EjException;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

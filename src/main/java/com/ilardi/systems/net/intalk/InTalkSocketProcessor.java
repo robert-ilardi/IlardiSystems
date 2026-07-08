@@ -12,7 +12,7 @@ import com.ilardi.systems.net.IlardiNetException;
 import com.ilardi.systems.net.SessionContext;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

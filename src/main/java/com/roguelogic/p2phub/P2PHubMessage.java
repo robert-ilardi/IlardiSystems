@@ -12,7 +12,7 @@ import com.ilardi.systems.util.Base64Codec;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

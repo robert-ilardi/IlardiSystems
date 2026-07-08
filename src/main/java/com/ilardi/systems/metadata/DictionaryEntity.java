@@ -8,7 +8,7 @@ import java.util.HashMap;
 import javax.xml.bind.annotation.XmlType;
 
 /**
- * @author Robert
+ * @author Kate Ilardi
  *
  */
 

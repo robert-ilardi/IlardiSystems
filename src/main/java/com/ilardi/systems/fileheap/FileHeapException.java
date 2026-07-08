@@ -6,7 +6,7 @@ package com.ilardi.systems.fileheap;
 import io.ilardi.IlardiSystemsException;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

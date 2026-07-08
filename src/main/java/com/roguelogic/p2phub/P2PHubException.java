@@ -6,7 +6,7 @@ package com.roguelogic.p2phub;
 import com.roguelogic.util.RLException;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

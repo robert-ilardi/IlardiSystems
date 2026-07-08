@@ -6,7 +6,7 @@ package com.ilardi.systems.metadata;
 import javax.xml.bind.annotation.XmlType;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

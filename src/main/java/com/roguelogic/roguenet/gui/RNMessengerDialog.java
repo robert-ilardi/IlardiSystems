@@ -29,7 +29,7 @@ import com.roguelogic.roguenet.plugins.RNMessenger;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

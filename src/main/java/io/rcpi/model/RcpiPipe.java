@@ -4,7 +4,7 @@
 package io.rcpi.model;
 
 /**
- * @author kilardi
+ * @author Kate Ilardi
  */
 
 public class RcpiPipe {

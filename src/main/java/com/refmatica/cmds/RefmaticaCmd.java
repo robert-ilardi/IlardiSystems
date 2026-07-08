@@ -6,7 +6,7 @@ package com.refmatica.cmds;
 import com.refmatica.RefmaticaException;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public abstract class RefmaticaCmd {

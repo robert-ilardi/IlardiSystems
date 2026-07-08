@@ -9,7 +9,7 @@ import com.roguelogic.workers.WorkerException;
 import com.roguelogic.workers.WorkerParameter;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

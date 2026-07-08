@@ -4,7 +4,7 @@
 package com.ilardi.systems.util;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

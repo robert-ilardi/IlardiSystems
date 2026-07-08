@@ -4,7 +4,7 @@
 package com.ilardi.experiments.log;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

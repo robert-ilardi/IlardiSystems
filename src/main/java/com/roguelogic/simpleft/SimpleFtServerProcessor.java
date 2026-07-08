@@ -38,7 +38,7 @@ import com.roguelogic.util.RLSystemUtils;
 import com.roguelogic.util.SimpleXORCodec;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

@@ -29,7 +29,7 @@ import com.roguelogic.util.RLStringUtils;
 /**
  * A simple file based HTTP Server Demo class.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

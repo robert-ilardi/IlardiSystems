@@ -28,7 +28,7 @@ import com.roguelogic.sambuca.LogMessage;
 import com.roguelogic.sambuca.SambucaLogger;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

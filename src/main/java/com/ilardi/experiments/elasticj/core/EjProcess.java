@@ -7,7 +7,7 @@ import com.ilardi.experiments.elasticj.model.EjProcessInfo;
 import com.ilardi.experiments.elasticj.model.EjProgramInfo;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

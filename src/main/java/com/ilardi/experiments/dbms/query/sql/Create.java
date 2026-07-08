@@ -6,7 +6,7 @@ package com.ilardi.experiments.dbms.query.sql;
 import java.util.List;
 
 /**
- * @author Robert
+ * @author Kate Ilardi
  *
  */
 

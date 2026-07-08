@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author rober
+ * @author Kate Ilardi
  */
 
 class ApplicationContextTest {

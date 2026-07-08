@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  *         This is a Sample Class for a Standalone *Daemon* Process.
  *         Implementations that use this template may be run from a scheduler

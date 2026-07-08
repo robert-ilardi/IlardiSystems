@@ -6,7 +6,7 @@ package com.roguelogic.wingo;
 import java.io.Serializable;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

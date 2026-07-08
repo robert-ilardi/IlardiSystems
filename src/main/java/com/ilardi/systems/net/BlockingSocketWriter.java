@@ -7,7 +7,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

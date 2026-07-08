@@ -10,7 +10,7 @@ import java.util.Properties;
 import com.roguelogic.net.SocketSession;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

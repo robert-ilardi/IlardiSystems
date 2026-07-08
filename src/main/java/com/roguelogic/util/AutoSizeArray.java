@@ -20,7 +20,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class AutoSizeArray implements Serializable {

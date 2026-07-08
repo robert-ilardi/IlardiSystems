@@ -29,7 +29,7 @@ import com.roguelogic.util.RLStringUtils;
 /**
  * Log Message Value-Object Class
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

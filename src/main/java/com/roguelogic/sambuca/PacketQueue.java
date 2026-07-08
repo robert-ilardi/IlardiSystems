@@ -28,7 +28,7 @@ import com.roguelogic.util.RLSystemUtils;
 /**
  * Raw Socket Data "Packet" Queue.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -4,7 +4,7 @@
 package com.roguelogic.propexchange;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

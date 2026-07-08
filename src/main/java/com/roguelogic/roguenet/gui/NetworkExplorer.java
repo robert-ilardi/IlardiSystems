@@ -68,7 +68,7 @@ import com.roguelogic.roguenet.plugins.RNAInfoDaemon;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

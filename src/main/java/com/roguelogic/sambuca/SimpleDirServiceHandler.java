@@ -31,7 +31,7 @@ import com.roguelogic.util.RLSystemUtils;
  * A simple directory/file based HTTP ServiceHandler Demo class used by the
  * SambucaHttpServerDemo.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

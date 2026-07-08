@@ -4,7 +4,7 @@
 package com.ilardi.systems.jdbc;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public class JdbcUtils {

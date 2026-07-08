@@ -41,7 +41,7 @@ import com.roguelogic.workers.WorkerPool;
 import com.roguelogic.workers.WorkerPoolException;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class SocketServer implements WorkerCustomizer {

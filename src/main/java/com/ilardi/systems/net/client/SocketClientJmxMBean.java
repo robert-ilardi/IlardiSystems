@@ -6,7 +6,7 @@ package com.ilardi.systems.net.client;
 import com.ilardi.systems.net.IlardiNetException;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

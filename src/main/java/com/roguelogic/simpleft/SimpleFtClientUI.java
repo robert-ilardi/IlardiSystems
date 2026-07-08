@@ -15,7 +15,7 @@ import com.roguelogic.util.RLStringUtils;
 import com.roguelogic.util.RLSystemUtils;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  * 
  */
 public class SimpleFtClientUI {

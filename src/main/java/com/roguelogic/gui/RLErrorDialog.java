@@ -24,7 +24,7 @@ import javax.swing.JTextArea;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

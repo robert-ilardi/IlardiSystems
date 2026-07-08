@@ -24,7 +24,7 @@ import com.ilardi.systems.net.IlardiNetException;
 import com.ilardi.systems.net.SocketInfo;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

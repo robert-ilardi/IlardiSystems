@@ -28,7 +28,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @Author rober
+ * @author Kate Ilardi
  */
 
 public class SimpleJsonRestClient<Tin, Tout> {

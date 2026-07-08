@@ -10,7 +10,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class ObjectMapEncoder {

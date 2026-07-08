@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -33,7 +33,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  * 
  */
 public class Snakies extends JFrame implements WindowListener {

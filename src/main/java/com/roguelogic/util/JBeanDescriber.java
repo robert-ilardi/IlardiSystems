@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class JBeanDescriber {

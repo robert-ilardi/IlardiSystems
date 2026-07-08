@@ -13,7 +13,7 @@ import com.roguelogic.workers.WorkerParameter;
 import com.roguelogic.workers.WorkerPool;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

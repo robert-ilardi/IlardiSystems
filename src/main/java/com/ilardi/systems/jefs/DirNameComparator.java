@@ -6,7 +6,7 @@ package com.ilardi.systems.jefs;
 import java.util.Comparator;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

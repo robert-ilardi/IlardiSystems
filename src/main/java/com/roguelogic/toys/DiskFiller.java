@@ -7,7 +7,7 @@ import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

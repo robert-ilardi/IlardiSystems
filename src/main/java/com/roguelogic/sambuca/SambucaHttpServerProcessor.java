@@ -33,7 +33,7 @@ import com.roguelogic.util.RLStringUtils;
  * "SocketWorker" concept. This class contains all the logic to parse and handle
  * at a low level HTTP data read from the socket.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

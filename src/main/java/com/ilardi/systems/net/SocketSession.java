@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

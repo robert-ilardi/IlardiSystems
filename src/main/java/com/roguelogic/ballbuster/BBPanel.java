@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 public class BBPanel extends JPanel implements MouseListener {
 

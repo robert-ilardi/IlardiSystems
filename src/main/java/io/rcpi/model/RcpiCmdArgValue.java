@@ -10,7 +10,7 @@ import java.time.LocalTime;
 import java.util.List;
 
 /**
- * @author kilardi
+ * @author Kate Ilardi
  */
 
 public class RcpiCmdArgValue implements Serializable {

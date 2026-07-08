@@ -23,7 +23,7 @@ package com.roguelogic.util;
 import java.io.File;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

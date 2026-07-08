@@ -9,7 +9,7 @@ import java.util.Properties;
 import com.roguelogic.roguenet.RNAConstants;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -3,7 +3,7 @@ package com.roguelogic.offsite;
 /**
  * This class contains Version and Application information for Off Site.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

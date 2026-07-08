@@ -6,7 +6,7 @@ package com.refmatica.cmds;
 import java.io.Serializable;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public enum RefmaticaCmdKeyword implements Serializable {

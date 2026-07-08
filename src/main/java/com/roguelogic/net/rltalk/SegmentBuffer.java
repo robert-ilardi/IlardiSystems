@@ -7,7 +7,7 @@ import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class SegmentBuffer {

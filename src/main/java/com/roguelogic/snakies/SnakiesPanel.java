@@ -32,7 +32,7 @@ import javax.swing.JPanel;
 import javax.swing.event.MouseInputListener;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  * 
  */
 public class SnakiesPanel extends JPanel implements MouseInputListener {

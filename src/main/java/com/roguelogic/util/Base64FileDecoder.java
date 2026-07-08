@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
 import com.ilardi.systems.util.Base64Codec;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

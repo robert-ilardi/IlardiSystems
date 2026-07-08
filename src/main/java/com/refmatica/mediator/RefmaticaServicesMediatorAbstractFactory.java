@@ -12,7 +12,7 @@ import com.refmatica.Version;
 import io.ilardi.ApplicationContext;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public class RefmaticaServicesMediatorAbstractFactory {

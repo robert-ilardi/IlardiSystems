@@ -4,7 +4,7 @@
 package com.ilardi.systems.jefs;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

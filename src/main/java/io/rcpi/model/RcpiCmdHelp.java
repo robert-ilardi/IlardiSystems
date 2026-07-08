@@ -6,7 +6,7 @@ package io.rcpi.model;
 import java.io.Serializable;
 
 /**
- * @author kilardi
+ * @author Kate Ilardi
  */
 
 public class RcpiCmdHelp implements Serializable {

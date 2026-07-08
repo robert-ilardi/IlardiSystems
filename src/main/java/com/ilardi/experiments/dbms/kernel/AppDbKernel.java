@@ -13,7 +13,7 @@ import com.ilardi.experiments.log.LogUtil;
 import com.ilardi.experiments.log.Logger;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

@@ -12,7 +12,7 @@ import javax.xml.bind.annotation.XmlType;
 import com.ilardi.systems.metadata.Concept;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

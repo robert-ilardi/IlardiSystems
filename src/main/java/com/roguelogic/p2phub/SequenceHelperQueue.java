@@ -9,7 +9,7 @@ import com.roguelogic.util.AutoSizeArray;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

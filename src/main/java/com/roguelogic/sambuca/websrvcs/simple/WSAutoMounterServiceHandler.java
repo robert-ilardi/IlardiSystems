@@ -39,7 +39,7 @@ import com.roguelogic.util.RLSystemUtils;
  * An implementation of the ServiceHandler that services HTTP requests for
  * simple non-soap based web services.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

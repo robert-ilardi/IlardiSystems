@@ -24,7 +24,7 @@ package com.roguelogic.sambuca;
  * A simple implementation of the SambucaLogger interface which uses System.out
  * and System.err to log events.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

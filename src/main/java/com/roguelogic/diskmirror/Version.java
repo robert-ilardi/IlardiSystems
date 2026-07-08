@@ -3,7 +3,7 @@ package com.roguelogic.diskmirror;
 /**
  * This class contains Version and Application information for Disk Mirror.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

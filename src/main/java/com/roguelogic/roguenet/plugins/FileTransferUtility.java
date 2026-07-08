@@ -46,7 +46,7 @@ import com.roguelogic.roguenet.gui.FileTransferUtilityDialog;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

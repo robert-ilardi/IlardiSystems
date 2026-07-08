@@ -6,7 +6,7 @@ package com.ilardi.experiments.dbms.query.sql;
 import java.io.Serializable;
 
 /**
- * @author Robert
+ * @author Kate Ilardi
  *
  */
 

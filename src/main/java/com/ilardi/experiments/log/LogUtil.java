@@ -6,7 +6,7 @@ package com.ilardi.experiments.log;
 import java.util.HashMap;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

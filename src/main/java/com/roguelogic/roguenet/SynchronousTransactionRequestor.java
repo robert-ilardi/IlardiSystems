@@ -6,7 +6,7 @@ package com.roguelogic.roguenet;
 import com.roguelogic.p2phub.P2PHubMessage;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

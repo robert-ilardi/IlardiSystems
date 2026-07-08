@@ -8,7 +8,7 @@ import java.util.Properties;
 import com.roguelogic.entitlements.User;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

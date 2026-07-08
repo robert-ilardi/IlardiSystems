@@ -23,7 +23,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class JBean implements Serializable {

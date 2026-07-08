@@ -22,7 +22,7 @@ import com.roguelogic.roguenet.gui.RNATrayMenu;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

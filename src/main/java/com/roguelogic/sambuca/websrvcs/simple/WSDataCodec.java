@@ -26,7 +26,7 @@ import com.roguelogic.util.HttpServletCallData;
 import com.roguelogic.util.RLSystemUtils;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class WSDataCodec {

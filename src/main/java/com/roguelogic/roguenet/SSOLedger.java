@@ -6,7 +6,7 @@ package com.roguelogic.roguenet;
 import java.util.HashMap;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

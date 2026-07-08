@@ -7,7 +7,7 @@ import com.ilardi.experiments.dbms.query.sql.BaseSqlElement;
 import com.roguelogic.util.RLStringUtils;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

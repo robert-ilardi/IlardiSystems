@@ -4,7 +4,7 @@
 package io.ilardi.meta;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  */
 
 public class MetaPackage extends MetaEntity {

@@ -21,7 +21,7 @@
 package com.roguelogic.util;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;

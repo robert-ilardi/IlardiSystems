@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 import io.ilardi.IlardiSystemsException;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

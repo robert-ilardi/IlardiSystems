@@ -4,7 +4,7 @@
 package com.ilardi.experiments.dbms.query.sql;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  *
  */
 

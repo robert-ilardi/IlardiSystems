@@ -26,7 +26,7 @@ import java.util.Properties;
  * A simple ServiceHandlerFactory Demo class used by the SambucaHttpServerDemo
  * to create SimpleDirServiceHandlers.
  * 
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  *
  */
 

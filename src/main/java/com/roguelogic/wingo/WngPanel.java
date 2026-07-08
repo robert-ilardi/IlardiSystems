@@ -15,7 +15,7 @@ import java.util.Random;
 import javax.swing.JPanel;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 public class WngPanel extends JPanel {
 

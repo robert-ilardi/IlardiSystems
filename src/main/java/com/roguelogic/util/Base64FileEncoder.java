@@ -11,7 +11,7 @@ import java.io.IOException;
 import com.ilardi.systems.util.Base64Codec;
 
 /**
- * @author Robert C. Ilardi
+ * @author Kate Ilardi
  * 
  */
 

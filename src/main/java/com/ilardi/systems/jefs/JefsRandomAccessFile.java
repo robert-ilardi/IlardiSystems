@@ -6,7 +6,7 @@ package com.ilardi.systems.jefs;
 import java.io.IOException;
 
 /**
- * @author robert.ilardi
+ * @author Kate Ilardi
  *
  */
 

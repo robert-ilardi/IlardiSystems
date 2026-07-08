@@ -24,7 +24,7 @@ import java.io.File;
 import java.net.InetAddress;
 
 /**
- * @author rilardi
+ * @author Kate Ilardi
  */
 
 public class IlardiUtils {
