@@ -1,7 +1,7 @@
 /**
  * Created Feb 26, 2024
  */
-package com.ilardi.systems.util;
+package io.ilardi;
 
 /**
  * @author Kate Ilardi

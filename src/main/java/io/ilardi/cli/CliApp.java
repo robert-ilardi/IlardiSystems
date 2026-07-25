@@ -1,7 +1,7 @@
 /**
  * Created Apr 24, 2023
  */
-package com.ilardi.experiments.cli;
+package io.ilardi.cli;
 
 import java.io.FileInputStream;
 import java.io.IOException;

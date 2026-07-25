@@ -1,15 +1,13 @@
 /**
  * Created Feb 25, 2024
  */
-package com.ilardi.systems.util;
+package io.ilardi;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import io.ilardi.IlardiSystemsException;
 
 /**
  * @author Kate Ilardi

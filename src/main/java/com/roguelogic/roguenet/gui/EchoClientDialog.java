@@ -24,7 +24,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
-import com.ilardi.systems.util.Base64Codec;
 import com.roguelogic.gui.RLComboBox;
 import com.roguelogic.gui.RLErrorDialog;
 import com.roguelogic.p2phub.P2PHubMessage;
@@ -35,6 +34,8 @@ import com.roguelogic.roguenet.SynchronousTransactionRequestor;
 import com.roguelogic.roguenet.Version;
 import com.roguelogic.roguenet.plugins.EchoClient;
 import com.roguelogic.util.RLSystemUtils;
+
+import io.ilardi.Base64Codec;
 
 /**
  * @author Kate Ilardi

@@ -10,7 +10,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import com.ilardi.systems.util.Base64Codec;
+import io.ilardi.Base64Codec;
 
 /**
  * @author Kate Ilardi

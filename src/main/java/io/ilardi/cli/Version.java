@@ -1,7 +1,7 @@
 /**
  * Created Apr 30, 2023
  */
-package com.ilardi.experiments.cli;
+package io.ilardi.cli;
 
 /**
  * @author Kate Ilardi
@@ -16,7 +16,7 @@ public class Version {
 
   public static final String DESCRIPTION = "Command Line Interface Application Framework";
 
-  public static final String COPYRIGHT = "Copyright (c) 2023 By: Robert C. Ilardi";
+  public static final String COPYRIGHT = "Copyright (c) 2023 By: Kate Ilardi";
 
   public static String getVersionInfo() {
     StringBuilder sb = new StringBuilder();

@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import com.ilardi.systems.util.Base64Codec;
+import io.ilardi.Base64Codec;
 
 /**
  * @author Kate Ilardi

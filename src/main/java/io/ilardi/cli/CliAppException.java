@@ -1,7 +1,7 @@
 /**
  * Created Apr 30, 2023
  */
-package com.ilardi.experiments.cli;
+package io.ilardi.cli;
 
 import io.ilardi.IlardiSystemsException;
 

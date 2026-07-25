@@ -1,9 +1,7 @@
 /**
  * Created Feb 25, 2024
  */
-package com.ilardi.systems.util;
-
-import io.ilardi.IlardiSystemsException;
+package io.ilardi;
 
 /**
  * @author Kate Ilardi

@@ -18,7 +18,7 @@
  * the License.
  */
 
-package com.ilardi.systems.util;
+package io.ilardi;
 
 import java.io.ByteArrayOutputStream;
 import java.util.HashMap;

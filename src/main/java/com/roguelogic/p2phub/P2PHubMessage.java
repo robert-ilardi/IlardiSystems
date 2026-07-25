@@ -8,8 +8,9 @@ import java.io.Serializable;
 import java.util.Iterator;
 import java.util.Properties;
 
-import com.ilardi.systems.util.Base64Codec;
 import com.roguelogic.util.RLStringUtils;
+
+import io.ilardi.Base64Codec;
 
 /**
  * @author Kate Ilardi

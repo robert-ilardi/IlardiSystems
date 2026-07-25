@@ -32,7 +32,6 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Properties;
 
-import com.ilardi.systems.util.Base64Codec;
 import com.roguelogic.p2phub.P2PHubMessage;
 import com.roguelogic.p2phub.P2PHubPeer;
 import com.roguelogic.roguenet.DownloadFile;
@@ -44,6 +43,8 @@ import com.roguelogic.roguenet.RogueNetException;
 import com.roguelogic.roguenet.gui.FileTransferProgressDialog;
 import com.roguelogic.roguenet.gui.FileTransferUtilityDialog;
 import com.roguelogic.util.RLStringUtils;
+
+import io.ilardi.Base64Codec;
 
 /**
  * @author Kate Ilardi

@@ -20,10 +20,11 @@
 
 package com.roguelogic.sambuca.websrvcs.simple;
 
-import com.ilardi.systems.util.Base64Codec;
 import com.roguelogic.sambuca.websrvcs.SambucaWebServiceException;
 import com.roguelogic.util.HttpServletCallData;
 import com.roguelogic.util.RLSystemUtils;
+
+import io.ilardi.Base64Codec;
 
 /**
  * @author Kate Ilardi
