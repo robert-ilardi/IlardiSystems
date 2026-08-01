@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  * @author Kate Ilardi
  */
 
-public class JdbcAfDriver implements Driver {
+public class JdbcAfDriver implements JdbcAfJdbcObject, Driver {
 
   public static final String JDBC_DRIVER_URL_PREFIX = "";
 

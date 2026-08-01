@@ -26,7 +26,7 @@ import java.util.concurrent.Executor;
  * @author Kate Ilardi
  */
 
-public class JdbcAfConnection implements Connection {
+public class JdbcAfConnection implements JdbcAfJdbcObject, Connection {
 
   public JdbcAfConnection() {
     super();
