@@ -22,26 +22,62 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.Executor;
 
+import io.jdbcaf.ConnectionClient;
+
 /**
  * @author Kate Ilardi
  */
 
 public class JdbcAfConnection implements JdbcAfJdbcObject, Connection {
 
+  protected ConnectionClient connClient;
+
+  protected final Object connLock;
+
   public JdbcAfConnection() {
+    this(null);
+  }
+
+  public JdbcAfConnection(ConnectionClient connClient) {
     super();
+
+    this.connLock = new Object();
+    this.connClient = connClient;
   }
 
   @Override
-  public <T> T unwrap(Class<T> iface) throws SQLException {
-    // TODO Auto-generated method stub
-    return null;
+  public void close() throws SQLException {
+    synchronized (connClient) {
+      try {
+        if (connClient != null) {
+          connClient.close();
+        }
+      }
+      catch (Exception e) {
+        throw new SQLException("An error occurred while attempting to Close JDBCAF Driver Connection. System Message: " + e.getMessage(), e);
+      }
+    }
   }
 
   @Override
-  public boolean isWrapperFor(Class<?> iface) throws SQLException {
-    // TODO Auto-generated method stub
-    return false;
+  public boolean isClosed() throws SQLException {
+    synchronized (connClient) {
+      try {
+        boolean closed;
+
+        if (connClient != null) {
+          closed = connClient.isClosed();
+        }
+        else {
+          closed = true;
+        }
+
+        return closed;
+      }
+      catch (Exception e) {
+        throw new SQLException("An error occurred while attempting to Check JDBCAF Driver Connection Status. System Message: " + e.getMessage(), e);
+      }
+    }
   }
 
   @Override
@@ -58,12 +94,6 @@ public class JdbcAfConnection implements JdbcAfJdbcObject, Connection {
 
   @Override
   public CallableStatement prepareCall(String sql) throws SQLException {
-    // TODO Auto-generated method stub
-    return null;
-  }
-
-  @Override
-  public String nativeSQL(String sql) throws SQLException {
     // TODO Auto-generated method stub
     return null;
   }
@@ -93,19 +123,37 @@ public class JdbcAfConnection implements JdbcAfJdbcObject, Connection {
   }
 
   @Override
-  public void close() throws SQLException {
+  public DatabaseMetaData getMetaData() throws SQLException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+  @Override
+  public void setTransactionIsolation(int level) throws SQLException {
     // TODO Auto-generated method stub
 
   }
 
   @Override
-  public boolean isClosed() throws SQLException {
+  public int getTransactionIsolation() throws SQLException {
+    // TODO Auto-generated method stub
+    return 0;
+  }
+
+  @Override
+  public <T> T unwrap(Class<T> iface) throws SQLException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+  @Override
+  public boolean isWrapperFor(Class<?> iface) throws SQLException {
     // TODO Auto-generated method stub
     return false;
   }
 
   @Override
-  public DatabaseMetaData getMetaData() throws SQLException {
+  public String nativeSQL(String sql) throws SQLException {
     // TODO Auto-generated method stub
     return null;
   }
@@ -132,18 +180,6 @@ public class JdbcAfConnection implements JdbcAfJdbcObject, Connection {
   public String getCatalog() throws SQLException {
     // TODO Auto-generated method stub
     return null;
-  }
-
-  @Override
-  public void setTransactionIsolation(int level) throws SQLException {
-    // TODO Auto-generated method stub
-
-  }
-
-  @Override
-  public int getTransactionIsolation() throws SQLException {
-    // TODO Auto-generated method stub
-    return 0;
   }
 
   @Override
